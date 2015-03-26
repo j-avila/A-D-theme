@@ -1,0 +1,254 @@
+{
+  "404.php": {
+    "size": 838,
+    "date": "2015-03-26T16:58:28.266Z"
+  },
+  "fonts/BIG-JOHN.eot": {
+    "size": 9530,
+    "date": "2015-03-26T16:58:29.801Z"
+  },
+  "fonts/BIG-JOHN.svg": {
+    "size": 10888,
+    "date": "2015-03-26T16:58:31.179Z"
+  },
+  "fonts/BIG-JOHN.ttf": {
+    "size": 9360,
+    "date": "2015-03-26T16:58:33.684Z"
+  },
+  "fonts/BIG-JOHN.woff": {
+    "size": 6824,
+    "date": "2015-03-26T16:58:35.098Z"
+  },
+  "fonts/font-awesome-4.2.0/css/font-awesome.css": {
+    "size": 28323,
+    "date": "2015-03-26T16:58:36.769Z"
+  },
+  "fonts/font-awesome-4.2.0/css/font-awesome.min.css": {
+    "size": 21987,
+    "date": "2015-03-26T16:58:38.935Z"
+  },
+  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot": {
+    "size": 56006,
+    "date": "2015-03-26T16:58:43.841Z"
+  },
+  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg": {
+    "size": 287526,
+    "date": "2015-03-26T16:58:48.747Z"
+  },
+  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf": {
+    "size": 112160,
+    "date": "2015-03-26T16:58:53.704Z"
+  },
+  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff": {
+    "size": 65452,
+    "date": "2015-03-26T16:58:55.909Z"
+  },
+  "fonts/font-awesome-4.2.0/fonts/FontAwesome.otf": {
+    "size": 85908,
+    "date": "2015-03-26T16:59:00.128Z"
+  },
+  "fonts/font-awesome-4.2.0/scss/font-awesome.css": {
+    "size": 75466,
+    "date": "2015-03-26T16:59:03.243Z"
+  },
+  "fonts/font-awesome-4.2.0/scss/font-awesome.css.map": {
+    "size": 14800,
+    "date": "2015-03-26T16:59:04.537Z"
+  },
+  "fonts/Montserrat-Regular.eot": {
+    "size": 29212,
+    "date": "2015-03-26T16:59:05.889Z"
+  },
+  "fonts/Montserrat-Regular.otf": {
+    "size": 53924,
+    "date": "2015-03-26T16:59:07.686Z"
+  },
+  "fonts/Montserrat-Regular.svg": {
+    "size": 144321,
+    "date": "2015-03-26T16:59:11.448Z"
+  },
+  "fonts/Montserrat-Regular.ttf": {
+    "size": 29016,
+    "date": "2015-03-26T16:59:13.572Z"
+  },
+  "fonts/Montserrat-Regular.woff": {
+    "size": 27272,
+    "date": "2015-03-26T16:59:15.134Z"
+  },
+  "fonts/Slim- Joe.eot": {
+    "size": 9562,
+    "date": "2015-03-26T16:59:16.200Z"
+  },
+  "fonts/Slim-Joe.svg": {
+    "size": 9538,
+    "date": "2015-03-26T16:59:18.636Z"
+  },
+  "fonts/Slim-Joe.ttf": {
+    "size": 9408,
+    "date": "2015-03-26T17:00:41.246Z"
+  },
+  "fonts/Slim-Joe.woff": {
+    "size": 6168,
+    "date": "2015-03-26T16:59:19.859Z"
+  },
+  "footer.php": {
+    "size": 708,
+    "date": "2015-03-26T16:59:21.371Z"
+  },
+  "functions.php": {
+    "size": 4026,
+    "date": "2015-03-26T16:59:23.064Z"
+  },
+  "header.php": {
+    "size": 1714,
+    "date": "2015-03-26T16:59:24.694Z"
+  },
+  "images/amazon.png": {
+    "size": 2733,
+    "date": "2015-03-26T16:59:25.617Z"
+  },
+  "images/bestbuy.png": {
+    "size": 2989,
+    "date": "2015-03-26T16:59:26.488Z"
+  },
+  "images/bg-grey.png": {
+    "size": 3240,
+    "date": "2015-03-26T16:59:28.794Z"
+  },
+  "images/bg_03.png": {
+    "size": 35256,
+    "date": "2015-03-26T16:59:30.313Z"
+  },
+  "images/cover-bg_01.png": {
+    "size": 20156,
+    "date": "2015-03-26T16:59:31.513Z"
+  },
+  "images/damoneypile.png": {
+    "size": 5039,
+    "date": "2015-03-26T16:59:32.376Z"
+  },
+  "images/ebay.png": {
+    "size": 2382,
+    "date": "2015-03-26T16:59:33.675Z"
+  },
+  "images/entrega.png": {
+    "size": 4560,
+    "date": "2015-03-26T16:59:34.505Z"
+  },
+  "images/favico-ad-01.svg": {
+    "size": 4085,
+    "date": "2015-03-26T16:59:35.369Z"
+  },
+  "images/favico-ad.png": {
+    "size": 3293,
+    "date": "2015-03-26T16:59:37.659Z"
+  },
+  "images/hexa-bg1.png": {
+    "size": 8839,
+    "date": "2015-03-26T16:59:38.702Z"
+  },
+  "images/hexa-bg12.png": {
+    "size": 22988,
+    "date": "2015-03-26T16:59:40.005Z"
+  },
+  "images/hexa-bg2.png": {
+    "size": 11908,
+    "date": "2015-03-26T16:59:41.323Z"
+  },
+  "images/hexa-bg3.png": {
+    "size": 9465,
+    "date": "2015-03-26T16:59:43.766Z"
+  },
+  "images/hm.png": {
+    "size": 1693,
+    "date": "2015-03-26T16:59:44.582Z"
+  },
+  "images/logo.png": {
+    "size": 8232,
+    "date": "2015-03-26T16:59:45.631Z"
+  },
+  "images/macys.png": {
+    "size": 2177,
+    "date": "2015-03-26T16:59:46.466Z"
+  },
+  "images/process_03.png": {
+    "size": 2191,
+    "date": "2015-03-26T16:59:49.274Z"
+  },
+  "images/process_05.png": {
+    "size": 1745,
+    "date": "2015-03-26T17:00:42.204Z"
+  },
+  "images/process_07.png": {
+    "size": 1562,
+    "date": "2015-03-26T16:59:50.094Z"
+  },
+  "images/process_13.png": {
+    "size": 2062,
+    "date": "2015-03-26T16:59:50.914Z"
+  },
+  "images/process_16.png": {
+    "size": 1641,
+    "date": "2015-03-26T16:59:51.748Z"
+  },
+  "images/process_18.png": {
+    "size": 2395,
+    "date": "2015-03-26T16:59:53.948Z"
+  },
+  "images/process_23.png": {
+    "size": 2521,
+    "date": "2015-03-26T16:59:54.759Z"
+  },
+  "images/process_26.png": {
+    "size": 2113,
+    "date": "2015-03-26T16:59:55.609Z"
+  },
+  "images/slide2.png": {
+    "size": 1133574,
+    "date": "2015-03-26T17:00:14.053Z"
+  },
+  "images/vectors_01.png": {
+    "size": 613234,
+    "date": "2015-03-26T17:00:22.804Z"
+  },
+  "images/wallmart.png": {
+    "size": 3002,
+    "date": "2015-03-26T17:00:23.739Z"
+  },
+  "index.php": {
+    "size": 538,
+    "date": "2015-03-26T17:00:24.827Z"
+  },
+  "page-nosotros.php": {
+    "size": 1734,
+    "date": "2015-03-26T17:00:25.357Z"
+  },
+  "page.php": {
+    "size": 526,
+    "date": "2015-03-26T17:00:26.568Z"
+  },
+  "screenshot.png": {
+    "size": 547948,
+    "date": "2015-03-26T17:00:37.246Z"
+  },
+  "style.css": {
+    "size": 23866,
+    "date": "2015-03-26T17:00:38.869Z"
+  },
+  "test.php": {
+    "size": 1047,
+    "date": "2015-03-26T17:00:40.109Z"
+  },
+  "prepros-ftp.json": {
+    "size": 5863,
+    "date": "2015-03-26T17:00:27.880Z"
+  },
+  "images/registro.png": {
+    "size": 104061,
+    "date": "2015-03-26T16:59:58.020Z"
+  },
+  "prueba.txt": {
+    "size": 0,
+    "date": "2015-03-26T16:58:27.160Z"
+  }
+}

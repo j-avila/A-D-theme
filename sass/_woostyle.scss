@@ -1,0 +1,202 @@
+// estilos de los templates de woocommerce
+
+
+#single-page{
+	.cover{
+		section{
+			display: none;
+		}
+	}
+
+	.row-tabs{
+
+		//tabs nav
+		.wpb_tabs_nav{
+			text-align: center;
+			border-bottom: 4px solid $naranja;
+			li{
+				float: none !important;
+				display: inline-block;
+				margin: 0 auto;
+				background: none;
+				font-family: $bigjhon;
+			}
+			.ui-state-active, .ui-state-active{
+				@include oranje-box;
+				font-family: $bigjhon;
+				a{
+					color: white;
+				}
+			}
+		}
+
+
+		//general tabs
+		.wpb_tour_tabs_wrapper{
+			width: 80%;
+			margin: 0 auto;
+			.ui-tabs-panel{
+				background:none;
+			}
+		}
+
+		//tab1
+		#tab-1426816174-1-14{
+			.woocommerce{
+				.myaccount_user, .myaccount_address, .addresses{
+					display: none !important;
+					}
+
+				h2{
+					margin: -82px 0 38px 0;
+					padding: 8px 4px;
+					background: $naranja;
+					color: white;
+					&:nth-of-type(2){
+						display: none;
+					}
+				}
+
+				.my_account_orders{
+					margin-top: -50px;
+					thead{
+						background: $naranja;
+						color: white;
+						font-family: $Montserrat;
+					}
+					tbody{
+						tr{
+							background: $gris2;
+							border: 0px;
+							&:nth-of-type(odd){
+								background: white;
+							}
+							td{border: 0px;}
+						}
+					}
+				}
+			}
+		}
+
+		//tab2
+		#tab-1426942649114-2-6{
+			.woocommerce{
+				.images{
+					display: none !important;
+				}
+				.entry-summary{
+					width: 50%;
+					@include white-box;
+					float: none;
+					margin: 0 auto;
+					text-align: center;
+					input{
+						@include white-box;
+						transition: background 0.4s ease;
+						width: 80%;
+						&:focus{
+							background: $gris2;
+							color: white;
+						}
+					}
+					.quantity{display: none;}
+					#field_1_5{
+						border: noone;
+					}
+
+				}
+				.woocommerce-tabs{display:none !important;}
+				button{
+					margin: 0 auto;
+					float: none;
+				}
+			}
+		}
+
+		//tab3
+		#tab-1426816198224-2-3{
+			#wpcf7-f132-p88-o2{
+				@include oranje-box;
+				margin: 0 auto;
+				width: 60%;
+				text-align: center;
+				p{
+					margin: 10px auto;
+					label{
+						display: inline-block;
+						vertical-align: middle;
+					}
+					input{
+						padding: 4px;
+						display: inline-block;
+						margin: 0 8px;
+						vertical-align: middle;
+						transition: background 0.4s ease;
+						&:focus{
+							background: $gris2;
+							color: white;
+						}
+
+					}
+					.wpcf7-submit{
+						@include purple-box;
+						margin: 10px 0;
+					}
+					.caption{
+						display: inline-block;
+						vertical-align: middle;
+						font-size: 12px;
+						text-align: left;
+						width: 200px;
+					}
+				}
+			}
+		}
+		
+
+	}
+
+	.row-address{
+		.woocommerce{
+			width: 90%;
+			@include white-box;
+			margin: 0 auto;
+			h2{
+				margin: -222px 0 0 0;
+				font-size: 30px;
+				text-align: center;
+				color: $morado;
+				&:nth-of-type(1){
+					display: none;
+				}
+			}
+			
+			.myaccount_user, .my_account_orders{
+				display: none;
+			}
+			.col2-set{
+				margin: -130px 0 0 0;
+				header{
+					background: none;
+				}
+
+				.col-1, .col-2{
+
+					.title{
+						h3, a{
+							display: inline-block;
+						}	
+					}
+					address{
+						display: inline-block;
+						width: 80%;
+						background: $gris-t2;
+						padding: 12px;
+					}
+				}
+			}
+
+
+		}
+	}
+}
