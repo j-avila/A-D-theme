@@ -373,6 +373,7 @@ header{
 	}
 
 	.login{
+		display: none;
 		position:fixed;
 		z-index: 50;
 		background: $morado-t;
@@ -395,6 +396,10 @@ header{
 				.login-submit{
 					@include purple-box;
 				}
+			}
+			p{
+				padding: 8px;
+				margin: 0 0 10px 0;
 			}
 
 			.reg-button{

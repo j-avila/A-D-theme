@@ -138,6 +138,7 @@ header nav .social li a:hover {
   color: #691f57;
 }
 header .login {
+  display: none;
   position: fixed;
   z-index: 50;
   background: rgba(105, 31, 87, 0.7);
@@ -170,6 +171,10 @@ header .login .log-box #wppb-login-wrap .login-submit {
   background: #691f57;
   border: 0px;
   color: white;
+}
+header .login .log-box p {
+  padding: 8px;
+  margin: 0 0 10px 0;
 }
 header .login .log-box .reg-button {
   display: inline-block;
