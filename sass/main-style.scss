@@ -305,6 +305,65 @@ a{text-decoration: none !important;}
 //defaults
 body{font-family: $Montserrat;}
 
+.login{
+		display: none; 
+		position:fixed;
+		z-index: 50;
+		background: $morado-t;
+		width: 100%;
+		height: 100%;
+		.log-box{
+			width: 50%;
+			position: absolute;
+			top: 80px;
+			left: 0px;
+			right: 0px;
+			margin: 0 auto;
+			z-index: 60;
+			padding: 10px;
+			background: url(images/bg_03.png) white;
+			background-size: cover;
+			#wppb-login-wrap{
+				width: 45%;
+				display: inline-block;
+				vertical-align: top;
+				@include oranje-box;
+				.login-submit{
+					.button-primary{
+						display: inline-block;
+						vertical-align: top;
+						@include purple-box;
+						&:hover{
+							@include white-box;
+							background: white;
+							cursor: pointer;
+						}
+					}
+				}
+				input{
+					padding: 4px;
+					transition: background 0.4s ease; 
+					&:focus{
+						background: $gris2;
+						color: $morado;
+					}
+				}
+			}
+			p{
+				padding: 8px;
+				margin: 0 0 10px 0;
+			}
+			.reg-button{
+				width: 40%;
+				display: inline-block;
+				vertical-align: top;
+				
+			}
+
+
+		}
+	}
+
 header{
 	width: 100%;
 	height: 80px;
@@ -312,7 +371,7 @@ header{
 	@include gradientWhite;
 
 	nav{
-		width:80%;
+		width:84%;
 		margin: 0 auto;
 		padding: 0 20px;
 		position: relative;
@@ -372,42 +431,7 @@ header{
 		}
 	}
 
-	.login{
-		display: none;
-		position:fixed;
-		z-index: 50;
-		background: $morado-t;
-		width: 100%;
-		height: 100%;
-		.log-box{
-			width: 50%;
-			background: $gris2;
-			position: absolute;
-			top: 80px;
-			left: 0px;
-			right: 0 px;
-			margin: 0 auto;
-			z-index: 60;
-			#wppb-login-wrap{
-				width: 45%;
-				display: inline-block;
-				vertical-align: top;
-				@include oranje-box;
-				.login-submit{
-					@include purple-box;
-				}
-			}
-			p{
-				padding: 8px;
-				margin: 0 0 10px 0;
-			}
-
-			.reg-button{
-				display: inline-block;
-				vertical-align: top;
-			}
-		}
-	}
+	
 
 }
 
@@ -834,6 +858,57 @@ footer{
 	}
 }
 
+
+//contacto
+
+.contacto{
+	#wpcf7-f16-p129-o3, #wpcf7-f16-p129-o2{
+		@include oranje-box;
+		width: 600px;
+		margin: 0 0 0 38px;
+		padding: 10px;
+		overflow: auto;
+		p{
+			width: 50%;
+			float: left;
+			input{
+				width: 80%;
+				padding: 6px;
+				transition: background 0.4s ease;
+				&:focus{
+					background: $gris2;
+					color: white;
+				} 
+			}
+
+			textarea{
+				padding: 6px;
+				margin: 10px 0;
+				float: left;
+				width: 100%;
+				transition: background 0.4s ease;
+				&:focus{
+					background: $gris2;
+					color: white;
+				} 
+			}
+		}
+
+		p{
+				.wpcf7-submit{
+				@include purple-box;
+				cursor: pointer;
+				margin: 160px 0 0 40px;
+				
+			}
+		}
+	}
+
+	.wpb_gmaps_widget{
+		width: 400px;
+		margin: 0 0 0 60px;
+	}
+}
 
 @import 'woostyle';
 @import 'mobile'; 

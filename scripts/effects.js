@@ -1,9 +1,9 @@
-// effectos de la pagina 
+$(window).load(function(){
 
-$(document).ready(function(){
 
 	$('.user-log').click(function(){
-		$('.login').fadeToffle('slow');
+		
+		$('.login').fadeToggle('slow');
 	});
 
 	$('.close').click(function(){
