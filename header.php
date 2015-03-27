@@ -26,7 +26,7 @@
 
 
 
-	<body>
+	<body<?php if (is_user_logged_in()) {echo 'class="user-logged"';} ?>>
 
 		<div class="login">
 

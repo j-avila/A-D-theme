@@ -1,362 +1,366 @@
 {
   "404.php": {
     "size": 838,
-    "date": "2015-03-27T00:53:21.714Z"
+    "date": "2015-03-27T13:39:04.757Z"
   },
   "fonts/BIG-JOHN.eot": {
     "size": 9530,
-    "date": "2015-03-27T00:53:25.880Z"
+    "date": "2015-03-27T13:39:09.620Z"
   },
   "fonts/BIG-JOHN.svg": {
     "size": 10888,
-    "date": "2015-03-27T00:53:28.508Z"
+    "date": "2015-03-27T13:39:13.803Z"
   },
   "fonts/BIG-JOHN.ttf": {
     "size": 9360,
-    "date": "2015-03-27T00:53:30.363Z"
+    "date": "2015-03-27T13:39:14.960Z"
   },
   "fonts/BIG-JOHN.woff": {
     "size": 6824,
-    "date": "2015-03-27T00:53:32.036Z"
+    "date": "2015-03-27T13:39:10.919Z"
   },
   "fonts/font-awesome-4.2.0/css/font-awesome.css": {
     "size": 28323,
-    "date": "2015-03-27T00:53:34.302Z"
+    "date": "2015-03-27T13:39:12.565Z"
   },
   "fonts/font-awesome-4.2.0/css/font-awesome.min.css": {
     "size": 21987,
-    "date": "2015-03-27T00:53:36.291Z"
+    "date": "2015-03-27T13:39:16.151Z"
   },
   "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot": {
     "size": 56006,
-    "date": "2015-03-27T00:53:39.669Z"
+    "date": "2015-03-27T13:39:17.956Z"
   },
   "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg": {
     "size": 287526,
-    "date": "2015-03-27T00:53:50.249Z"
+    "date": "2015-03-27T13:39:24.589Z"
   },
   "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf": {
     "size": 112160,
-    "date": "2015-03-27T00:53:55.075Z"
+    "date": "2015-03-27T13:39:20.326Z"
   },
   "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff": {
     "size": 65452,
-    "date": "2015-03-27T00:53:57.776Z"
+    "date": "2015-03-27T13:39:26.512Z"
   },
   "fonts/font-awesome-4.2.0/fonts/FontAwesome.otf": {
     "size": 85908,
-    "date": "2015-03-27T00:54:00.769Z"
+    "date": "2015-03-27T13:39:37.892Z"
   },
   "fonts/font-awesome-4.2.0/scss/font-awesome.css": {
     "size": 75466,
-    "date": "2015-03-27T00:54:03.601Z"
+    "date": "2015-03-27T13:39:31.320Z"
   },
   "fonts/font-awesome-4.2.0/scss/font-awesome.css.map": {
     "size": 14821,
-    "date": "2015-03-27T00:54:05.388Z"
+    "date": "2015-03-27T13:39:27.719Z"
   },
   "fonts/Montserrat-Regular.eot": {
     "size": 29212,
-    "date": "2015-03-27T00:54:07.513Z"
+    "date": "2015-03-27T13:39:29.301Z"
   },
   "fonts/Montserrat-Regular.otf": {
     "size": 53924,
-    "date": "2015-03-27T00:54:10.005Z"
+    "date": "2015-03-27T13:39:33.339Z"
   },
   "fonts/Montserrat-Regular.svg": {
     "size": 144321,
-    "date": "2015-03-27T00:54:14.274Z"
+    "date": "2015-03-27T13:39:35.849Z"
   },
   "fonts/Montserrat-Regular.ttf": {
     "size": 29016,
-    "date": "2015-03-27T00:54:16.345Z"
+    "date": "2015-03-27T13:39:39.299Z"
   },
   "fonts/Montserrat-Regular.woff": {
     "size": 27272,
-    "date": "2015-03-27T00:54:18.406Z"
+    "date": "2015-03-27T13:39:40.852Z"
   },
   "fonts/Slim- Joe.eot": {
     "size": 9562,
-    "date": "2015-03-27T00:54:20.138Z"
+    "date": "2015-03-27T13:39:42.176Z"
   },
   "fonts/Slim-Joe.svg": {
     "size": 9538,
-    "date": "2015-03-27T00:54:21.768Z"
+    "date": "2015-03-27T13:39:43.315Z"
   },
   "fonts/Slim-Joe.ttf": {
     "size": 9408,
-    "date": "2015-03-27T00:54:23.459Z"
+    "date": "2015-03-27T13:39:45.662Z"
   },
   "fonts/Slim-Joe.woff": {
     "size": 6168,
-    "date": "2015-03-27T00:54:25.057Z"
+    "date": "2015-03-27T13:39:44.400Z"
   },
   "footer.php": {
     "size": 708,
-    "date": "2015-03-27T00:54:26.316Z"
+    "date": "2015-03-27T13:39:49.060Z"
   },
   "functions.php": {
-    "size": 4026,
-    "date": "2015-03-27T00:54:27.629Z"
+    "size": 4162,
+    "date": "2015-03-27T14:19:00.636Z"
   },
   "header.php": {
-    "size": 1819,
-    "date": "2015-03-27T00:54:28.936Z"
+    "size": 1887,
+    "date": "2015-03-27T14:19:01.475Z"
   },
   "images/amazon.png": {
     "size": 2733,
-    "date": "2015-03-27T00:54:30.247Z"
+    "date": "2015-03-27T13:39:47.400Z"
   },
   "images/bestbuy.png": {
     "size": 2989,
-    "date": "2015-03-27T00:54:33.473Z"
+    "date": "2015-03-27T13:39:49.918Z"
   },
   "images/bg-grey.png": {
     "size": 3240,
-    "date": "2015-03-27T00:55:05.129Z"
+    "date": "2015-03-27T13:39:50.754Z"
   },
   "images/bg_03.png": {
     "size": 35256,
-    "date": "2015-03-27T00:55:09.358Z"
+    "date": "2015-03-27T13:39:52.172Z"
   },
   "images/cover-bg_01.png": {
     "size": 20156,
-    "date": "2015-03-27T00:55:13.450Z"
+    "date": "2015-03-27T13:39:53.552Z"
   },
   "images/damoneypile.png": {
     "size": 5039,
-    "date": "2015-03-27T00:55:14.813Z"
+    "date": "2015-03-27T13:39:54.554Z"
   },
   "images/ebay.png": {
     "size": 2382,
-    "date": "2015-03-27T00:55:16.303Z"
+    "date": "2015-03-27T13:39:55.391Z"
   },
   "images/entrega.png": {
     "size": 4560,
-    "date": "2015-03-27T00:55:18.406Z"
+    "date": "2015-03-27T13:39:56.215Z"
   },
   "images/favico-ad-01.svg": {
     "size": 4085,
-    "date": "2015-03-27T00:55:20.121Z"
+    "date": "2015-03-27T13:39:57.283Z"
   },
   "images/favico-ad.png": {
     "size": 3293,
-    "date": "2015-03-27T00:55:21.503Z"
+    "date": "2015-03-27T13:39:58.559Z"
   },
   "images/hexa-bg1.png": {
     "size": 8839,
-    "date": "2015-03-27T00:55:25.163Z"
-  },
-  "images/hexa-bg12.png": {
-    "size": 22988,
-    "date": "2015-03-27T00:55:28.749Z"
+    "date": "2015-03-27T13:39:59.671Z"
   },
   "images/hexa-bg2.png": {
     "size": 11908,
-    "date": "2015-03-27T00:55:35.396Z"
+    "date": "2015-03-27T13:40:00.903Z"
   },
   "images/hexa-bg3.png": {
     "size": 9465,
-    "date": "2015-03-27T00:55:39.167Z"
+    "date": "2015-03-27T13:40:02.023Z"
   },
   "images/hm.png": {
     "size": 1693,
-    "date": "2015-03-27T00:55:43.585Z"
+    "date": "2015-03-27T13:40:02.913Z"
   },
   "images/logo.png": {
     "size": 8232,
-    "date": "2015-03-27T00:55:45.520Z"
+    "date": "2015-03-27T13:40:04.775Z"
   },
   "images/macys.png": {
     "size": 2177,
-    "date": "2015-03-27T00:55:47.662Z"
+    "date": "2015-03-27T13:40:05.584Z"
   },
   "images/process_03.png": {
     "size": 2191,
-    "date": "2015-03-27T00:55:49.052Z"
+    "date": "2015-03-27T13:40:03.726Z"
   },
   "images/process_05.png": {
     "size": 1745,
-    "date": "2015-03-27T00:55:52.719Z"
+    "date": "2015-03-27T13:40:06.403Z"
   },
   "images/process_07.png": {
     "size": 1562,
-    "date": "2015-03-27T00:55:56.106Z"
+    "date": "2015-03-27T13:40:07.225Z"
   },
   "images/process_13.png": {
     "size": 2062,
-    "date": "2015-03-27T00:55:57.452Z"
+    "date": "2015-03-27T13:40:08.088Z"
   },
   "images/process_16.png": {
     "size": 1641,
-    "date": "2015-03-27T00:55:58.812Z"
+    "date": "2015-03-27T13:40:08.957Z"
   },
   "images/process_18.png": {
     "size": 2395,
-    "date": "2015-03-27T00:56:00.175Z"
+    "date": "2015-03-27T13:40:10.648Z"
   },
   "images/process_23.png": {
     "size": 2521,
-    "date": "2015-03-27T00:56:01.535Z"
+    "date": "2015-03-27T13:40:09.801Z"
   },
   "images/process_26.png": {
     "size": 2113,
-    "date": "2015-03-27T00:56:02.940Z"
+    "date": "2015-03-27T13:40:11.625Z"
   },
   "images/slide2.png": {
     "size": 1133574,
-    "date": "2015-03-27T00:57:20.516Z"
+    "date": "2015-03-27T13:40:29.126Z"
   },
   "images/vectors_01.png": {
     "size": 613234,
-    "date": "2015-03-27T00:57:34.165Z"
+    "date": "2015-03-27T13:40:38.720Z"
   },
   "images/wallmart.png": {
     "size": 3002,
-    "date": "2015-03-27T00:57:37.204Z"
+    "date": "2015-03-27T13:40:39.667Z"
   },
   "index.php": {
     "size": 556,
-    "date": "2015-03-27T00:57:43.694Z"
+    "date": "2015-03-27T13:40:14.557Z"
   },
   "page-nosotros.php": {
     "size": 1734,
-    "date": "2015-03-27T00:57:46.486Z"
+    "date": "2015-03-27T13:40:40.860Z"
   },
   "page.php": {
-    "size": 526,
-    "date": "2015-03-27T00:57:47.806Z"
+    "size": 556,
+    "date": "2015-03-27T14:19:02.319Z"
   },
   "screenshot.png": {
     "size": 547948,
-    "date": "2015-03-27T00:58:14.118Z"
+    "date": "2015-03-27T13:40:55.238Z"
   },
   "style.css": {
-    "size": 23866,
-    "date": "2015-03-27T00:58:19.645Z"
+    "size": 21484,
+    "date": "2015-03-27T13:40:56.523Z"
   },
   "test.php": {
     "size": 1047,
-    "date": "2015-03-27T00:58:21.000Z"
+    "date": "2015-03-27T13:40:57.370Z"
   },
   "prepros-ftp.json": {
-    "size": 8461,
-    "date": "2015-03-27T00:57:49.572Z"
+    "size": 8557,
+    "date": "2015-03-27T14:19:03.327Z"
   },
   "images/registro.png": {
     "size": 104061,
-    "date": "2015-03-27T00:56:21.342Z"
+    "date": "2015-03-27T13:40:13.736Z"
   },
   ".git/config": {
     "size": 413,
-    "date": "2015-03-27T00:52:54.846Z"
+    "date": "2015-03-27T13:38:40.842Z"
   },
   ".git/description": {
     "size": 73,
-    "date": "2015-03-27T00:52:57.345Z"
+    "date": "2015-03-27T13:38:41.865Z"
   },
   ".git/FETCH_HEAD": {
     "size": 218,
-    "date": "2015-03-27T00:52:56.092Z"
+    "date": "2015-03-27T13:38:47.092Z"
   },
   ".git/HEAD": {
     "size": 34,
-    "date": "2015-03-27T00:52:58.617Z"
+    "date": "2015-03-27T13:38:42.923Z"
   },
   ".git/hooks/applypatch-msg.sample": {
     "size": 452,
-    "date": "2015-03-27T00:52:59.863Z"
+    "date": "2015-03-27T13:38:43.973Z"
   },
   ".git/hooks/commit-msg.sample": {
     "size": 896,
-    "date": "2015-03-27T00:53:01.396Z"
+    "date": "2015-03-27T13:38:45.240Z"
   },
   ".git/hooks/post-update.sample": {
     "size": 189,
-    "date": "2015-03-27T00:53:02.652Z"
+    "date": "2015-03-27T13:38:46.180Z"
   },
   ".git/hooks/pre-applypatch.sample": {
     "size": 398,
-    "date": "2015-03-27T00:53:03.908Z"
+    "date": "2015-03-27T13:38:48.064Z"
   },
   ".git/hooks/pre-commit.sample": {
     "size": 1642,
-    "date": "2015-03-27T00:53:05.237Z"
+    "date": "2015-03-27T13:38:49.783Z"
   },
   ".git/hooks/pre-push.sample": {
     "size": 1352,
-    "date": "2015-03-27T00:53:06.595Z"
+    "date": "2015-03-27T13:38:50.805Z"
   },
   ".git/hooks/pre-rebase.sample": {
     "size": 4951,
-    "date": "2015-03-27T00:53:07.937Z"
+    "date": "2015-03-27T13:38:51.935Z"
   },
   ".git/hooks/prepare-commit-msg.sample": {
     "size": 1239,
-    "date": "2015-03-27T00:53:09.342Z"
+    "date": "2015-03-27T13:38:52.973Z"
   },
   ".git/hooks/update.sample": {
     "size": 3611,
-    "date": "2015-03-27T00:53:10.718Z"
+    "date": "2015-03-27T13:38:54.001Z"
   },
   ".git/index": {
-    "size": 9136,
-    "date": "2015-03-27T00:53:12.394Z"
+    "size": 9232,
+    "date": "2015-03-27T13:38:55.744Z"
   },
   ".git/info/exclude": {
     "size": 240,
-    "date": "2015-03-27T00:53:13.649Z"
+    "date": "2015-03-27T13:38:56.622Z"
   },
   ".git/logs/HEAD": {
     "size": 378,
-    "date": "2015-03-27T00:53:14.916Z"
+    "date": "2015-03-27T13:38:57.749Z"
   },
   ".git/logs/refs/heads/master": {
     "size": 190,
-    "date": "2015-03-27T00:53:16.725Z"
+    "date": "2015-03-27T13:38:58.786Z"
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2015-03-27T00:53:19.215Z"
+    "date": "2015-03-27T13:39:02.837Z"
   },
   "css/main-style.css": {
-    "size": 24616,
-    "date": "2015-03-27T00:53:24.001Z"
+    "size": 19946,
+    "date": "2015-03-27T13:39:06.265Z"
   },
   "prueba2.txt": {
     "size": 0,
-    "date": "2015-03-27T00:57:52.155Z"
+    "date": "2015-03-27T13:40:43.390Z"
   },
   ".git/logs/refs/heads/puliendo-detalles": {
     "size": 184,
-    "date": "2015-03-27T00:53:17.972Z"
+    "date": "2015-03-27T13:39:00.867Z"
   },
   ".git/refs/heads/puliendo-detalles": {
     "size": 41,
-    "date": "2015-03-27T00:53:20.453Z"
+    "date": "2015-03-27T13:39:03.734Z"
   },
   ".git/logs/refs/remotes/origin/HEAD": {
     "size": 190,
-    "date": "2015-03-27T00:51:22.474Z"
-  },
-  ".git/objects/pack/pack-299eedaf6bf33cc19dd878a0ea5f0d5d24fbe5ef.idx": {
-    "size": 4460,
-    "date": "2015-03-27T00:51:23.797Z"
-  },
-  ".git/objects/pack/pack-299eedaf6bf33cc19dd878a0ea5f0d5d24fbe5ef.pack": {
-    "size": 2941907,
-    "date": "2015-03-27T00:52:49.152Z"
+    "date": "2015-03-27T13:38:59.951Z"
   },
   ".git/packed-refs": {
     "size": 186,
-    "date": "2015-03-27T00:52:50.553Z"
+    "date": "2015-03-27T13:39:01.897Z"
   },
   ".git/refs/remotes/origin/HEAD": {
     "size": 32,
-    "date": "2015-03-27T00:52:52.330Z"
+    "date": "2015-03-27T13:39:07.303Z"
   },
   "scripts/effects.js": {
-    "size": 215,
-    "date": "2015-03-27T00:52:53.597Z"
+    "size": 357,
+    "date": "2015-03-27T14:19:04.246Z"
+  },
+  ".git/objects/pack/pack-1406f8fb0d28fa34a9d6c3621f943dcf2b1114e5.idx": {
+    "size": 4908,
+    "date": "2015-03-27T13:38:00.305Z"
+  },
+  ".git/objects/pack/pack-1406f8fb0d28fa34a9d6c3621f943dcf2b1114e5.pack": {
+    "size": 2972030,
+    "date": "2015-03-27T13:38:37.540Z"
+  },
+  "images/gb-cover_02.png": {
+    "size": 26398,
+    "date": "2015-03-27T13:38:39.127Z"
+  },
+  "scripts/min/effects.min.js": {
+    "size": 238,
+    "date": "2015-03-27T14:19:05.024Z"
   }
 }

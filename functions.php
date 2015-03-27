@@ -108,7 +108,7 @@ function register_my_menus() {
 
 			'custom-script',
 
-			get_stylesheet_directory_uri() . '/scripts/effects.js',
+			get_stylesheet_directory_uri() . '/scripts/min/effects.min.js',
 
 			array( 'jquery' )
 
