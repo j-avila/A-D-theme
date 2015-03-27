@@ -248,8 +248,13 @@ function register_my_menus() {
 
 /*///////shortcodes//////////*/
 
+function url_shortcode($atts, $content = null ) {
 
+return '<img src="' . get_stylesheet_directory_uri() . '/images/' . $content . '"/>';
 
+}
+
+add_shortcode('hotlink','url_shortcode');
 
 
 

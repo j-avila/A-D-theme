@@ -191,3 +191,6 @@ footer .pie p { display: inline-block; color: #7f8083; font-family: "Roboto", sa
 #single-page .row-address .woocommerce .col2-set header { background: none; }
 #single-page .row-address .woocommerce .col2-set .col-1 .title h3, #single-page .row-address .woocommerce .col2-set .col-1 .title a, #single-page .row-address .woocommerce .col2-set .col-2 .title h3, #single-page .row-address .woocommerce .col2-set .col-2 .title a { display: inline-block; }
 #single-page .row-address .woocommerce .col2-set .col-1 address, #single-page .row-address .woocommerce .col2-set .col-2 address { display: inline-block; width: 80%; background: rgba(6, 255, 255, 0.5); padding: 12px; }
+
+#select_user_to_edit_form { width: 600px; margin: 0 auto; padding: 8px; font-family: "Montserrat-Regular", roboto, 18px; background: #691f57; border: 0px; color: white; }
+#select_user_to_edit_form input { background: white; padding: 4px; }

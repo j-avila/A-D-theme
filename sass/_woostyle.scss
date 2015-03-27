@@ -200,3 +200,15 @@
 		}
 	}
 }
+
+
+
+#select_user_to_edit_form{
+	width: 600px;
+	margin: 0 auto;
+	@include purple-box;
+	input{
+		background: white;
+		padding: 4px;
+	}
+}

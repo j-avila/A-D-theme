@@ -14,10 +14,10 @@ $(window).load(function(){
 	///mi cuenta contenido
 	var usuario = $('body').hasClass('user-logged');
 	if(usuario == false){
-		$('.logged').hide();
+		$('.logged').show();
 	}
 	else{
-		$('.not-user').show();
+		$('.not-user').hide();
 	}
 
 });
