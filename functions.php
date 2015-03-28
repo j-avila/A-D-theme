@@ -248,6 +248,24 @@ function register_my_menus() {
 
 /*///////shortcodes//////////*/
 
+//hotlink al sitio
+
+function url_shortcut($params = array()) {
+	
+	extract(shortcode_atts(array(
+		"sub" => ""
+	), $params));
+	
+	return get_bloginfo('url') . '/' . $params['sub'];
+}
+
+
+add_shortcode('site-url','url_shortcut');
+
+
+
+//hotlink a las imagenes
+
 function url_shortcode($atts, $content = null ) {
 
 return '<img src="' . get_stylesheet_directory_uri() . '/images/' . $content . '"/>';
@@ -257,6 +275,43 @@ return '<img src="' . get_stylesheet_directory_uri() . '/images/' . $content . '
 add_shortcode('hotlink','url_shortcode');
 
 
+
+//user
+
+function user_logged(){
+	if ( is_user_logged_in() ) :
+ 
+    $current_user = wp_get_current_user();
+
+    echo '<h3> Bienvenido ' . $current_user->display_name . '</h3>';
+
+else :
+        echo 'no hay nigun usuario logeado';
+
+    endif;
+}
+
+
+add_shortcode( 'logged-user', 'user_logged' );
+
+
+//logout
+
+function iweb_logout_url_shortcode() {
+	return '<a class="logut-but" href="' . wp_logout_url() . '"><span>&#xf084;</span>Cerrar session</a>';
+}
+add_shortcode( 'logout-but', 'iweb_logout_url_shortcode' );
+
+
+
+
+//editar perfil
+
+function edit_profile(){
+	return '<a class="logut-but" href="' . get_bloginfo('url') . '/editar-perfil"><span>&#xf044;</span>Editar perfil</a>';
+}
+
+add_shortcode( 'edit-but', 'edit_profile' ); 
 
 
 ?>

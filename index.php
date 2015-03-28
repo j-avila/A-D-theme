@@ -1,4 +1,4 @@
-<?php /*// template name: Inicio //*/ ?>
+<?php /* template name: Inicio */ ?>
 
 <?php  get_header(); ?>
 
@@ -12,7 +12,7 @@
 
 				<div id="block" class="slider">
 
-					<?php echo do_shortcode('[layerslider id="2"]'); ?>
+					<?php echo do_shortcode('[layerslider id="1"]'); ?>
 
 				</div>
 

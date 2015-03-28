@@ -203,6 +203,68 @@
 
 
 
+.user-bar{
+	@include oranje-box;
+	position: relative;
+	width: 100%;
+	h3{
+		color: $morado;
+		padding: 0 0 0 20px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.logut-but{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 10px;
+		span{
+			font-family: $icons;
+			font-weight: bold;
+		}
+		&:hover{
+			color: white; 
+		}
+
+	}
+
+	a.logut-but{
+		float: right;
+	}
+}
+
+
+.quicklog{
+	.login{
+		position: relative;
+		display: block;
+		background: none;
+		width: 100%;
+		.log-box{
+			display: block;
+			width: 80%;
+			position: relative;
+			margin: 0 auto;
+			text-align: center;
+
+			#wppb-login-wrap{
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.reg-button{
+				display: inline-block;
+				vertical-align: top;
+				margin: 0px 10px;
+				padding: 0px;
+			}
+		}
+	}
+}
+
+
+
+
 #select_user_to_edit_form{
 	width: 600px;
 	margin: 0 auto;
@@ -210,5 +272,135 @@
 	input{
 		background: white;
 		padding: 4px;
+	}
+}
+
+
+//registro de usuarios
+
+.alert{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+#wppb-register-user{
+	@include white-box;
+	margin: 20px auto;
+	width: 60%;
+	ul{
+		list-style: none !important;
+		li{
+			margin: 20px auto;
+			width: 70%;
+			@include vendor-prefix(display, flex);
+			@include vendor-prefix(flex-flow, row wrap);
+			justify-content: space-around;
+			label{
+				@include vendor-prefix(order, 1);
+				margin: 0 4px;
+			}
+			input{
+				@include vendor-prefix(order, 2);
+				padding: 8px;
+				@include vendor-prefix(flex, 2 auto);
+
+				width: 200px;
+				background: $gris2;
+				transition: background 0.4s ease;
+				&:focus{
+					background: $morado;
+					color: white;
+				}
+			}
+			#pass-strength-result, .wppb-description-delimiter{
+				@include vendor-prefix(order, 3);
+				@include vendor-prefix(flex, 1 100%);
+				text-align: center;
+				background: $gris-t2;
+				padding: 4px;
+			}
+			
+
+		}
+	}
+	.form-submit{
+		margin: 0 auto;
+		text-align: center;
+		input{
+			@include purple-box;
+			cursor: pointer;
+			&:hover{
+				@include oranje-box;
+			}
+		}
+	}
+}
+
+
+
+// edicion de perfil
+
+.edit-head{
+	width: 70%;
+	margin: 0 auto !important;
+	text-align: center;
+}
+
+.edit-form{
+	@include white-box;
+	font-size: 20px;
+	width: 60%;
+	margin: 20px auto !important;
+	
+	
+	ul{
+
+		list-style: none !important;
+		li{
+			margin: 20px auto;
+			width: 70%;
+			@include vendor-prefix(display, flex);
+			@include vendor-prefix(flex-flow, row wrap);
+			justify-content: space-around;
+			label{
+				@include vendor-prefix(order, 1);
+				margin: 0 4px;
+			}
+			input{
+				@include vendor-prefix(order, 2);
+				padding: 8px;
+				@include vendor-prefix(flex, 2 auto);
+
+				width: 200px;
+				background: $gris2;
+				transition: background 0.4s ease;
+				&:focus{
+					background: $morado;
+					color: white;
+				}
+			}
+			#pass-strength-result, .wppb-description-delimiter{
+				@include vendor-prefix(order, 3);
+				@include vendor-prefix(flex, 1 100%);
+				text-align: center;
+				background: $gris-t2;
+				padding: 4px;
+			}
+			
+
+		}
+	}
+	.form-submit{
+		margin: 0 auto;
+		text-align: center;
+		input{
+			@include purple-box;
+			cursor: pointer;
+			&:hover{
+				@include oranje-box;
+			}
+		}
 	}
 }

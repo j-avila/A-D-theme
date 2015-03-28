@@ -13,11 +13,15 @@ $(window).load(function(){
 
 	///mi cuenta contenido
 	var usuario = $('body').hasClass('user-logged');
-	if(usuario == false){
+
+	if(usuario){
 		$('.logged').show();
+		$('.not-user').hide();
 	}
 	else{
-		$('.not-user').hide();
+		$('.logged').hide();
+		$('.not-user').show();
+		
 	}
 
 });

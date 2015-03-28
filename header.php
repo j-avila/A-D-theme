@@ -26,7 +26,7 @@
 
 
 
-	<body<?php if (is_user_logged_in()) {echo 'class="user-logged"';} ?>>
+	<body<?php if (is_user_logged_in()) {echo ' class="user-logged"';} ?>>
 
 		<div class="login">
 
@@ -45,7 +45,7 @@
 
 					<?php echo do_shortcode('[wppb-login]'); ?>
 
-					<a class="reg-button"><img src="<?php print IMAGES; ?>/registro.png" alt=""></a>
+					<a class="reg-button" href="<?php get_site_url();?>/crear-cuenta"><img src="<?php print IMAGES; ?>/registro.png" alt=""></a>
 			</div>
 
 		</div>
@@ -69,8 +69,6 @@
 					<li><a class="" href="">&#xf16d;</a></li>
 
 					<li><a class="" href="">&#xf099;</a></li>
-
-					<li><a class="" href="<?php echo get_site_url(); ?>/cart">&#xf07a;</a></li>
 
 					<li><a class="user-log" href="#">&#xf007;</a></li>
 
