@@ -64,11 +64,11 @@
 
 				<ul class="social">
 
-					<li><a class="" href="">&#xf09a;</a></li>
+					<li><a href="https://www.facebook.com/adexpressca?fref=ts">&#xf09a;</a></li>
 
-					<li><a class="" href="">&#xf16d;</a></li>
+					<li><a href="http://instagram.com/adexpressca/">&#xf16d;</a></li>
 
-					<li><a class="" href="">&#xf099;</a></li>
+					<li><a href="https://twitter.com/adexpressca?lang=es">&#xf099;</a></li>
 
 					<li><a class="user-log" href="#">&#xf007;</a></li>
 

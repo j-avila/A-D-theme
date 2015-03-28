@@ -404,3 +404,26 @@
 		}
 	}
 }
+
+
+//checkout
+
+.checkout{
+	@include oranje-box;
+	width: 80%;
+	margin: 0 auto !important;
+
+	#customer_details{
+		display: none;
+	}
+	
+	.woocommerce-checkout{
+		width: 100%;
+		#order_review{
+			table{
+				color: white;
+			}
+		}
+	}
+	
+}
