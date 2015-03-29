@@ -75,6 +75,59 @@
 						}
 					}
 				}
+
+				form{
+					@include white-box;
+					width: 80%; 
+					margin: 10px auto;
+					@include vendor-prefix(display, flex);
+					@include vendor-prefix(flex-flow, row wrap);
+					@include vendor-prefix(justify-content, space-around);
+					h3{
+						width: 100%;
+						text-align: center;
+					} 
+					p{
+						margin: 8px 0px;
+						float: none;
+						clear: none;
+						@include vendor-prefix(flex, 2 40%);
+						label{
+							display: inline-block;
+							margin: 0 4px;
+						}
+						input{
+							display: inline-block !important;
+							padding: 8px;
+							width: 60%;
+							background: $gris2; 
+							transition: background 0.4s ease;
+							&:focus{
+								background: $morado;
+								color: white;
+							}
+						}
+					}
+				}
+				
+
+				//detalles de la orden
+				.order-info{
+					display: none;
+				}
+
+				header{
+					background: none;
+
+				}
+
+				header.title{
+					@include titulos;
+					padding: 10px 0px;
+					font-size: 20px !important;
+					display: block; 
+				}
+
 			}
 		}
 
@@ -171,7 +224,7 @@
 				}
 			}
 			
-			.myaccount_user, .my_account_orders{
+			.myaccount_user, .my_account_orders, .shop_table, header, address{
 				display: none;
 			}
 			.col2-set{
@@ -340,7 +393,7 @@
 
 
 
-// edicion de perfil
+// edicion de perfil 
 
 .edit-head{
 	width: 70%;
@@ -348,6 +401,8 @@
 	text-align: center;
 }
 
+
+//flex elements
 .edit-form{
 	@include white-box;
 	font-size: 20px;
@@ -426,4 +481,23 @@
 		}
 	}
 	
+}
+
+
+.placed-order{
+
+	.woocommerce{
+		width: 80%;
+		@include white-box;
+		margin: 0 auto;
+
+		header{
+			@include titulos;
+			background: none;
+			font-size: 20px;
+			padding: 20px 0 !important;
+			h2{}
+		}
+	}
+
 }
