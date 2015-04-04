@@ -227,6 +227,9 @@
 			.myaccount_user, .my_account_orders, .shop_table, header, address{
 				display: none;
 			}
+			.myaccount_address{
+				width: 100%;
+			}
 			.col2-set{
 				margin: -130px 0 0 0;
 				header{
@@ -246,6 +249,8 @@
 						background: $gris-t2;
 						padding: 12px;
 					}
+
+					
 				}
 			}
 
@@ -500,4 +505,55 @@
 		}
 	}
 
+}
+
+.not-user.quicklog{
+	.wpb_wrapper{
+		width: 80%;
+		margin: 0 auto;
+
+		.caption{
+			width: 100%;
+			display: inline-block;
+		}
+
+		pre{
+			width: 50%;
+			@include oranje-box;
+			display: inline-block;
+			vertical-align: top;  
+			margin: 0px;
+			padding: 0px;
+			.wppb-user-forms{
+				#loginform{
+					margin: -80px 0 0 20px;
+					p{
+						padding: 0px;
+						input{
+							@include white-box;
+							transition: background 0.4s ease;
+							&:focus{
+								background: $gris2;
+								color: $morado;
+							}
+						}
+					}
+					
+				}
+			}
+
+		}
+
+		img{
+			width: 40%;
+			display: inline-block;
+			vertical-align: top;
+			&:hover{
+				opacity: 0.8;
+				cursor: pointer;
+			} 
+		}
+
+
+	}
 }

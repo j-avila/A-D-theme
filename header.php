@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
 
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="<?php print TEMPPATH; ?>/scripts/jquery-1.11.1.min.js"></script>
 
 		<!--WP generated header -->
 
@@ -55,8 +56,10 @@
 			
 
 			<nav>
-
+				<span><a class="burger" href="#" data-toggle=".menu"></a></span>
+				<div class="swipe-area"></div> 
 				<figure><a href=" <?php echo get_option('home'); ?>"><img src="<?php print IMAGES ?>/logo.png" alt="A$amp;DExpress"></a></figure>
+				
 
 				 <?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
 

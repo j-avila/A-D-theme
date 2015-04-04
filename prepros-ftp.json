@@ -228,16 +228,16 @@
     "date": "2015-03-27T13:40:55.238Z"
   },
   "style.css": {
-    "size": 28566,
-    "date": "2015-03-29T18:56:39.213Z"
+    "size": 29954,
+    "date": "2015-04-01T06:11:26.719Z"
   },
   "test.php": {
     "size": 1047,
     "date": "2015-03-27T13:40:57.370Z"
   },
   "prepros-ftp.json": {
-    "size": 20659,
-    "date": "2015-03-29T18:56:37.121Z"
+    "size": 22486,
+    "date": "2015-04-01T06:11:25.296Z"
   },
   "images/registro.png": {
     "size": 104061,
@@ -245,15 +245,15 @@
   },
   ".git/config": {
     "size": 413,
-    "date": "2015-03-29T18:56:23.507Z"
+    "date": "2015-04-01T06:11:17.168Z"
   },
   ".git/description": {
     "size": 73,
     "date": "2015-03-27T13:38:41.865Z"
   },
   ".git/FETCH_HEAD": {
-    "size": 0,
-    "date": "2015-03-29T18:56:24.949Z"
+    "size": 218,
+    "date": "2015-04-01T06:11:17.952Z"
   },
   ".git/HEAD": {
     "size": 34,
@@ -297,15 +297,15 @@
   },
   ".git/index": {
     "size": 9232,
-    "date": "2015-03-29T18:56:26.592Z"
+    "date": "2015-04-01T06:11:19.051Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2015-03-27T13:38:56.622Z"
   },
   ".git/logs/HEAD": {
-    "size": 1464,
-    "date": "2015-03-29T18:56:27.856Z"
+    "size": 1624,
+    "date": "2015-04-01T06:11:19.878Z"
   },
   ".git/logs/refs/heads/master": {
     "size": 190,
@@ -324,12 +324,12 @@
     "date": "2015-03-27T13:40:43.390Z"
   },
   ".git/logs/refs/heads/puliendo-detalles": {
-    "size": 1056,
-    "date": "2015-03-29T18:56:29.114Z"
+    "size": 1216,
+    "date": "2015-04-01T06:11:20.727Z"
   },
   ".git/refs/heads/puliendo-detalles": {
     "size": 41,
-    "date": "2015-03-29T18:56:31.805Z"
+    "date": "2015-04-01T06:11:23.215Z"
   },
   ".git/logs/refs/remotes/origin/HEAD": {
     "size": 190,
@@ -356,12 +356,12 @@
     "date": "2015-03-28T22:50:47.436Z"
   },
   ".git/COMMIT_EDITMSG": {
-    "size": 118,
-    "date": "2015-03-29T18:56:21.926Z"
+    "size": 14,
+    "date": "2015-04-01T06:11:16.406Z"
   },
   ".git/logs/refs/remotes/origin/puliendo-detalles": {
-    "size": 475,
-    "date": "2015-03-29T18:56:30.350Z"
+    "size": 781,
+    "date": "2015-04-01T06:11:21.682Z"
   },
   ".git/objects/01/9f254f44c11e5c69c326076d38448a0e8862f9": {
     "size": 871,
@@ -661,11 +661,11 @@
   },
   ".git/ORIG_HEAD": {
     "size": 41,
-    "date": "2015-03-28T22:50:29.201Z"
+    "date": "2015-04-01T06:11:22.446Z"
   },
   ".git/refs/remotes/origin/puliendo-detalles": {
     "size": 41,
-    "date": "2015-03-29T18:56:32.829Z"
+    "date": "2015-04-01T06:11:23.979Z"
   },
   ".git/objects/0a/65bf00c7f401fbe98b645304282226bedaf2c3": {
     "size": 1989,
@@ -758,5 +758,65 @@
   ".git/objects/ff/7e9efb9bce16d5db81e2c2e888195b13d332da": {
     "size": 230,
     "date": "2015-03-29T18:56:20.206Z"
+  },
+  ".git/objects/15/1c686d14434911f17c25f39aa41a22ffe3344a": {
+    "size": 119,
+    "date": "2015-04-01T06:11:02.739Z"
+  },
+  ".git/objects/20/e1b01414609fbb16d8251e9367a1a35e35a64f": {
+    "size": 195,
+    "date": "2015-04-01T06:11:03.433Z"
+  },
+  ".git/objects/2b/f7dfb80fa2b1686d46f2e89193ca27bd56cb8f": {
+    "size": 591,
+    "date": "2015-04-01T06:11:04.305Z"
+  },
+  ".git/objects/40/a264b4ad3e1eaf3fc565c64df1092c30f05473": {
+    "size": 109,
+    "date": "2015-04-01T06:11:05.069Z"
+  },
+  ".git/objects/59/9e699d3ba92541017a00acaec3fad8a23c6cf5": {
+    "size": 592,
+    "date": "2015-04-01T06:11:06.148Z"
+  },
+  ".git/objects/6c/9493232ba5e59f1524c25a5ebb379e52b87446": {
+    "size": 5777,
+    "date": "2015-04-01T06:11:07.579Z"
+  },
+  ".git/objects/78/b562a14e9c7e020184f935f3fd41e75d35324d": {
+    "size": 167,
+    "date": "2015-04-01T06:11:08.410Z"
+  },
+  ".git/objects/80/1d5517654c6251ff845fc4c2481216922309a9": {
+    "size": 592,
+    "date": "2015-04-01T06:11:09.550Z"
+  },
+  ".git/objects/94/3250b40bd948ea6029fc0317a71085751ea725": {
+    "size": 114,
+    "date": "2015-04-01T06:11:10.313Z"
+  },
+  ".git/objects/b0/57b9b9632d66951d679b97e6961847c442ffee": {
+    "size": 193,
+    "date": "2015-04-01T06:11:11.079Z"
+  },
+  ".git/objects/b4/8654a0c3ae2ead6f5e10d09991b38e978fcb61": {
+    "size": 193,
+    "date": "2015-04-01T06:11:11.871Z"
+  },
+  ".git/objects/b5/9eb5d3a00d13a3a7325ed5087ad604fa993092": {
+    "size": 193,
+    "date": "2015-04-01T06:11:12.973Z"
+  },
+  ".git/objects/bc/537b4b97a6ddbf97cc4e97da3963052e439d97": {
+    "size": 119,
+    "date": "2015-04-01T06:11:13.752Z"
+  },
+  ".git/objects/e6/78e064460beed3f806055df98dc8a920d3d62c": {
+    "size": 194,
+    "date": "2015-04-01T06:11:14.515Z"
+  },
+  "scripts/jquery.touchSwipe.min.js": {
+    "size": 10629,
+    "date": "2015-04-01T06:11:15.625Z"
   }
 }
