@@ -1,6 +1,6 @@
 
 //telefonos mobiles
-@media all and (min-width: 300px) and (max-width: 375px){
+@media all and (min-width: 300px) and (max-width: 980px){
 	// html{overflow-x: hidden;}
 	#wpadminbar{
 		position: relative;
@@ -112,12 +112,22 @@
       }
 	}
 
-
-
-
 //footer
 	footer{
-
+		#f-wrap{
+			.f-block{
+				width: 100%;
+				text-align: center;
+				margin: 10px auto;
+				&:nth-child(1){
+					display: none;
+				}
+				h3{
+					text-align: center;
+				}
+			}
+			
+		}
 	}
 
 //inicio
@@ -246,7 +256,7 @@
 				width: 100%;
 				text-align: center;
 				input{
-					width: 90%;
+					width: 100%;
 					margin: 10px 0px;
 				}
 				textarea{
@@ -314,9 +324,12 @@
 					}
 
 					.myaccount_address{
-							width: 100%;
-							display: block;
-						}
+						width: 100%;
+						margin: 0px;
+						display: block;
+						text-align: center;
+						@include vendor-prefix(overflow-wrap, break-word);
+					}
 
 					.col2-set{
 						header{
@@ -337,6 +350,8 @@
 								display: block;
 								width: 90%;
 								margin: 0px auto;
+								text-align: center !important;
+								@include vendor-prefix(overflow-wrap, break-word);
 							}
 
 							
@@ -410,6 +425,7 @@
 		}
 		p {
 			.wpcf7-submit{
+				display: block;
 				margin: 0 auto;
 			}
 		}
@@ -431,10 +447,78 @@
 
 
 
+
+
+
 }
 
 
 //tablets
-@media all and(max-width: 768px)and(min-width: 375px){
+@media all and(max-width: 980px)and(min-width: 375px){
+
+//inicio
+	header{
+		nav{
+			.social{
+				display: inline-block;
+				right: 0px;
+			}
+		}
+	}
+
+	footer{
+		#f-wrap{
+			.f-block{
+				display: inline-block;
+				vertical-align: top;
+				width: 30%;
+				margin: 10px;
+			}
+		}
+	}
+
+	#content{
+		.content-area{
+			.block2{
+				.tiendas{
+					article.tiendas{
+						.shop-slide{
+							img{
+								width: 20%;
+							}
+						}
+
+					}
+				}
+			}
+		}
+	}
+
+
+
+//empresa
+
+	.nosotros{
+		#block2{
+			.hexa-hold{
+				width: 40%;
+				display: inline-block;
+			}
+		}
+	}
+
+
+//3-blocks
+
+	#single-page{
+		.content-hold{
+			.oranje-block{
+				article.oranje-item{
+					
+				}
+			}
+		}
+	}
+
 
 }

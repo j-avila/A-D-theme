@@ -19,42 +19,6 @@
     "size": 6824,
     "date": "2015-03-27T13:39:10.919Z"
   },
-  "fonts/font-awesome-4.2.0/css/font-awesome.css": {
-    "size": 28323,
-    "date": "2015-03-27T13:39:12.565Z"
-  },
-  "fonts/font-awesome-4.2.0/css/font-awesome.min.css": {
-    "size": 21987,
-    "date": "2015-03-27T13:39:16.151Z"
-  },
-  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot": {
-    "size": 56006,
-    "date": "2015-03-27T13:39:17.956Z"
-  },
-  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg": {
-    "size": 287526,
-    "date": "2015-03-27T13:39:24.589Z"
-  },
-  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf": {
-    "size": 112160,
-    "date": "2015-03-27T13:39:20.326Z"
-  },
-  "fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff": {
-    "size": 65452,
-    "date": "2015-03-27T13:39:26.512Z"
-  },
-  "fonts/font-awesome-4.2.0/fonts/FontAwesome.otf": {
-    "size": 85908,
-    "date": "2015-03-27T13:39:37.892Z"
-  },
-  "fonts/font-awesome-4.2.0/scss/font-awesome.css": {
-    "size": 75466,
-    "date": "2015-03-27T13:39:31.320Z"
-  },
-  "fonts/font-awesome-4.2.0/scss/font-awesome.css.map": {
-    "size": 14821,
-    "date": "2015-03-27T13:39:27.719Z"
-  },
   "fonts/Montserrat-Regular.eot": {
     "size": 29212,
     "date": "2015-03-27T13:39:29.301Z"
@@ -96,12 +60,12 @@
     "date": "2015-03-27T13:39:49.060Z"
   },
   "functions.php": {
-    "size": 5382,
-    "date": "2015-03-28T22:50:39.407Z"
+    "size": 5267,
+    "date": "2015-04-04T05:34:19.327Z"
   },
   "header.php": {
-    "size": 1940,
-    "date": "2015-03-29T18:56:35.126Z"
+    "size": 2132,
+    "date": "2015-04-04T05:34:20.853Z"
   },
   "images/amazon.png": {
     "size": 2733,
@@ -116,8 +80,8 @@
     "date": "2015-03-27T13:39:50.754Z"
   },
   "images/bg_03.png": {
-    "size": 35256,
-    "date": "2015-03-27T13:39:52.172Z"
+    "size": 48189,
+    "date": "2015-04-04T05:34:23.686Z"
   },
   "images/cover-bg_01.png": {
     "size": 20156,
@@ -228,16 +192,16 @@
     "date": "2015-03-27T13:40:55.238Z"
   },
   "style.css": {
-    "size": 29954,
-    "date": "2015-04-01T06:11:26.719Z"
+    "size": 36081,
+    "date": "2015-04-04T05:34:31.387Z"
   },
   "test.php": {
     "size": 1047,
     "date": "2015-03-27T13:40:57.370Z"
   },
   "prepros-ftp.json": {
-    "size": 22486,
-    "date": "2015-04-01T06:11:25.296Z"
+    "size": 25571,
+    "date": "2015-04-04T05:34:25.961Z"
   },
   "images/registro.png": {
     "size": 104061,
@@ -245,7 +209,7 @@
   },
   ".git/config": {
     "size": 413,
-    "date": "2015-04-01T06:11:17.168Z"
+    "date": "2015-04-04T05:34:06.925Z"
   },
   ".git/description": {
     "size": 73,
@@ -253,7 +217,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 218,
-    "date": "2015-04-01T06:11:17.952Z"
+    "date": "2015-04-04T05:34:08.428Z"
   },
   ".git/HEAD": {
     "size": 34,
@@ -296,16 +260,16 @@
     "date": "2015-03-27T13:38:54.001Z"
   },
   ".git/index": {
-    "size": 9232,
-    "date": "2015-04-01T06:11:19.051Z"
+    "size": 5992,
+    "date": "2015-04-04T05:34:10.320Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2015-03-27T13:38:56.622Z"
   },
   ".git/logs/HEAD": {
-    "size": 1624,
-    "date": "2015-04-01T06:11:19.878Z"
+    "size": 1779,
+    "date": "2015-04-04T05:34:11.836Z"
   },
   ".git/logs/refs/heads/master": {
     "size": 190,
@@ -324,12 +288,12 @@
     "date": "2015-03-27T13:40:43.390Z"
   },
   ".git/logs/refs/heads/puliendo-detalles": {
-    "size": 1216,
-    "date": "2015-04-01T06:11:20.727Z"
+    "size": 1371,
+    "date": "2015-04-04T05:34:13.324Z"
   },
   ".git/refs/heads/puliendo-detalles": {
     "size": 41,
-    "date": "2015-04-01T06:11:23.215Z"
+    "date": "2015-04-04T05:34:16.261Z"
   },
   ".git/logs/refs/remotes/origin/HEAD": {
     "size": 190,
@@ -344,24 +308,24 @@
     "date": "2015-03-27T13:39:07.303Z"
   },
   "scripts/effects.js": {
-    "size": 406,
-    "date": "2015-03-28T22:50:46.138Z"
+    "size": 1630,
+    "date": "2015-04-04T05:34:27.434Z"
   },
   "images/gb-cover_02.png": {
     "size": 26398,
     "date": "2015-03-27T13:38:39.127Z"
   },
   "scripts/min/effects.min.js": {
-    "size": 282,
-    "date": "2015-03-28T22:50:47.436Z"
+    "size": 979,
+    "date": "2015-04-04T05:34:28.888Z"
   },
   ".git/COMMIT_EDITMSG": {
-    "size": 14,
-    "date": "2015-04-01T06:11:16.406Z"
+    "size": 146,
+    "date": "2015-04-04T05:34:05.377Z"
   },
   ".git/logs/refs/remotes/origin/puliendo-detalles": {
-    "size": 781,
-    "date": "2015-04-01T06:11:21.682Z"
+    "size": 934,
+    "date": "2015-04-04T05:34:14.784Z"
   },
   ".git/objects/01/9f254f44c11e5c69c326076d38448a0e8862f9": {
     "size": 871,
@@ -665,7 +629,7 @@
   },
   ".git/refs/remotes/origin/puliendo-detalles": {
     "size": 41,
-    "date": "2015-04-01T06:11:23.979Z"
+    "date": "2015-04-04T05:34:17.769Z"
   },
   ".git/objects/0a/65bf00c7f401fbe98b645304282226bedaf2c3": {
     "size": 1989,
@@ -815,8 +779,148 @@
     "size": 194,
     "date": "2015-04-01T06:11:14.515Z"
   },
-  "scripts/jquery.touchSwipe.min.js": {
+  ".git/objects/0f/965a0a63dbb1bd95fa53f9e5a0661531b136ac": {
+    "size": 126,
+    "date": "2015-04-04T05:30:40.236Z"
+  },
+  ".git/objects/11/62d1d61ff0c458b7c76eeae7874f8bb3762605": {
+    "size": 593,
+    "date": "2015-04-04T05:30:41.758Z"
+  },
+  ".git/objects/13/4e87e63f28e9597845bc8a214d1bc131525cb9": {
+    "size": 562,
+    "date": "2015-04-04T05:30:43.870Z"
+  },
+  ".git/objects/17/f527cd56e98ab2afd588cb1ea3c1265b862a42": {
+    "size": 83,
+    "date": "2015-04-04T05:30:45.791Z"
+  },
+  ".git/objects/1b/11cd2397ae179fc119d537602a3ac91b5562e3": {
+    "size": 4953,
+    "date": "2015-04-04T05:30:49.424Z"
+  },
+  ".git/objects/23/837f88e2207c18844ea398c9bddc103affcdec": {
+    "size": 2464,
+    "date": "2015-04-04T05:30:55.397Z"
+  },
+  ".git/objects/23/a2ed98f2a204e15fbd15e1b1b5af348ae493a9": {
+    "size": 549,
+    "date": "2015-04-04T05:31:03.935Z"
+  },
+  ".git/objects/26/7020c5c0386aece158bc07c04df3253a9be0b7": {
+    "size": 1465,
+    "date": "2015-04-04T05:31:12.562Z"
+  },
+  ".git/objects/36/9ed1f37e4451c07f722cb975af745c8403fb91": {
+    "size": 399,
+    "date": "2015-04-04T05:31:13.816Z"
+  },
+  ".git/objects/41/6e09c5e1c5cdea46a346a7e6fd238d05ff4dd0": {
+    "size": 920,
+    "date": "2015-04-04T05:31:15.166Z"
+  },
+  ".git/objects/45/3cb234ae9ac52c167c484e0083b3808c7fa4db": {
+    "size": 31209,
+    "date": "2015-04-04T05:31:19.391Z"
+  },
+  ".git/objects/5e/845f33f45aa6aaa26450e2c85ce1459cc95e6a": {
+    "size": 1953,
+    "date": "2015-04-04T05:31:20.781Z"
+  },
+  ".git/objects/6d/e1a3a167282ac2727f6c7b1dfe87d17c983bae": {
+    "size": 254,
+    "date": "2015-04-04T05:31:23.042Z"
+  },
+  ".git/objects/85/d5274bee8546940a4183ec8a5ccc52002dd4d0": {
+    "size": 119,
+    "date": "2015-04-04T05:31:25.692Z"
+  },
+  ".git/objects/8a/3293a48736c630398be48084c3e558c1b1e196": {
+    "size": 1910,
+    "date": "2015-04-04T05:31:27.558Z"
+  },
+  ".git/objects/8a/46e849ba9cf86e664e7dc99d4d8eba6b0ea6b4": {
+    "size": 195,
+    "date": "2015-04-04T05:31:30.647Z"
+  },
+  ".git/objects/8f/dc63fed3d565748887cef2f53766f750add012": {
+    "size": 593,
+    "date": "2015-04-04T05:31:34.703Z"
+  },
+  ".git/objects/95/92d5ab22a0bcce7d11a4076127eb1d7fbef9e6": {
+    "size": 100,
+    "date": "2015-04-04T05:31:42.684Z"
+  },
+  ".git/objects/a5/002d232024e3bacef000854c65db7c86a3572d": {
+    "size": 119,
+    "date": "2015-04-04T05:31:47.890Z"
+  },
+  ".git/objects/ab/28a24729b320bffd3d2f60302af949db39ab85": {
+    "size": 38823,
+    "date": "2015-04-04T05:31:59.664Z"
+  },
+  ".git/objects/b3/32395dc00bf5531045b25611765a8273eea407": {
+    "size": 2517,
+    "date": "2015-04-04T05:32:08.015Z"
+  },
+  ".git/objects/b4/f99a37e3e4fe80193b997e255f96ff7ac4fb73": {
+    "size": 1055,
+    "date": "2015-04-04T05:32:29.075Z"
+  },
+  ".git/objects/bb/6d4231130831fd5647804e0b3f6b8dc64a801b": {
+    "size": 58,
+    "date": "2015-04-04T05:32:40.444Z"
+  },
+  ".git/objects/c3/4f4ba58f22840014a3961a2e0231a72ad0542c": {
+    "size": 376,
+    "date": "2015-04-04T05:32:47.691Z"
+  },
+  ".git/objects/d4/2906c79b1f942e31cfd6faa9e1847af2729748": {
+    "size": 551,
+    "date": "2015-04-04T05:32:55.745Z"
+  },
+  ".git/objects/d5/70f4f0f447888d01452af26b24a5d988b351fd": {
+    "size": 6947,
+    "date": "2015-04-04T05:33:06.096Z"
+  },
+  ".git/objects/ea/3f0343744108178584de3e892225048d9b053b": {
+    "size": 3960,
+    "date": "2015-04-04T05:33:12.190Z"
+  },
+  ".git/objects/ea/5f6ff04cf99a720dd6547a6f2d90fe267f5e3d": {
+    "size": 6361,
+    "date": "2015-04-04T05:33:16.014Z"
+  },
+  ".git/objects/fd/089959e372d6f7adcc54b0ef8acf6b79e85437": {
+    "size": 5034,
+    "date": "2015-04-04T05:33:21.807Z"
+  },
+  "fonts/fontawesome-webfont.eot": {
+    "size": 56006,
+    "date": "2015-04-04T05:33:33.535Z"
+  },
+  "fonts/fontawesome-webfont.svg": {
+    "size": 287526,
+    "date": "2015-04-04T05:33:44.190Z"
+  },
+  "fonts/fontawesome-webfont.ttf": {
+    "size": 112160,
+    "date": "2015-04-04T05:33:48.578Z"
+  },
+  "fonts/fontawesome-webfont.woff": {
+    "size": 65452,
+    "date": "2015-04-04T05:33:51.710Z"
+  },
+  "fonts/FontAwesome.otf": {
+    "size": 85908,
+    "date": "2015-04-04T05:33:55.770Z"
+  },
+  "scripts/jquery-1.11.1.min.js": {
+    "size": 95786,
+    "date": "2015-04-04T05:34:01.868Z"
+  },
+  "scripts/min/jquery.touchSwipe.min.js": {
     "size": 10629,
-    "date": "2015-04-01T06:11:15.625Z"
+    "date": "2015-04-04T05:34:03.771Z"
   }
 }
