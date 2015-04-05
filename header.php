@@ -56,12 +56,28 @@
 			
 
 			<nav>
-				<span><a class="burger" href="#" data-toggle=".menu"></a></span>
+				<span><a class="burger" href="#" data-toggle=".nav-holder"></a></span>
 				<div class="swipe-area"></div> 
 				<figure><a href=" <?php echo get_option('home'); ?>"><img src="<?php print IMAGES ?>/logo.png" alt="A$amp;DExpress"></a></figure>
 				
 
-				 <?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+				<div class="nav-holder">
+					<figure><a href=" <?php echo get_option('home'); ?> "><img src="<?php print IMAGES ?>/logo-diapo.png" alt="A&D express"></a></figure>
+
+					 <?php wp_nav_menu( array( 'theme_location' => 'main-nav' ) ); ?>
+
+					 <ul class="social">
+
+						<li><a href="https://www.facebook.com/adexpressca?fref=ts">&#xf09a;</a></li>
+
+						<li><a href="http://instagram.com/adexpressca/">&#xf16d;</a></li>
+
+						<li><a href="https://twitter.com/adexpressca?lang=es">&#xf099;</a></li>
+
+						<li><a class="user-log" href="#">&#xf007;</a></li>
+
+					</ul>
+				 </div>
 
 
 

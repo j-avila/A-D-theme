@@ -37,18 +37,18 @@ $(window).load(function(){
 	  $('body').toggleClass('lock-body');
 	  $('.swipe-area').toggleClass('swipe-on');
 	});
-	 $("nav .swipe-area").swipe({
+	 $(".swipe-area").swipe({
 	      swipeStatus:function(event, phase, direction, distance, duration, fingers)
 	          {
 	              if (phase=="move" && direction =="right") {
-	                   $(".menu").addClass("open-sidebar");
+	                   $(".nav-holder").addClass("open-sidebar");
 	                   $("burger").addClass("burger-on");
 	                   $("body").addClass("lock-body");
 	                   $(".swipe-area").addClass("swipe-on");
 	                   return false;
 	              }
 	              if (phase=="move" && direction =="left") {
-	                   $(".menu").removeClass("open-sidebar");
+	                   $(".nav-holder").removeClass("open-sidebar");
 	                   $(".burger").removeClass("burger-on");
 	                   $(".burger").removeClass("burger-on");
 	                   $("body").removeClass("lock-body");

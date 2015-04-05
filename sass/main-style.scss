@@ -397,7 +397,8 @@ header{
 			display: inline-block;
 			vertical-align: middle;
 		}
-		.menu-main-menu-container{
+		.nav-holder{
+			width: 720px;
 			display: inline-block;
 			vertical-align: middle;
 			.menu{
@@ -442,6 +443,13 @@ header{
 						color: $morado;
 					}
 				}
+			}
+		}
+
+		.nav-holder{
+			.social, figure{
+				display: none;
+
 			}
 		}
 	}
@@ -526,9 +534,6 @@ footer{
 
 
 .slider{
-	width: 100%;
-	height: inherit;
-	img{width:100%;}
 }
 
 
@@ -668,7 +673,7 @@ footer{
 		.hexa-hold{
 			display: inline-block;
 			vertical-align: middle;
-			margin: 0 10px;
+			margin: 20px 10px;
 			position: relative;
 			width: 310px;
 			height: 350px; 

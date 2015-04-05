@@ -1,6 +1,6 @@
 
 //telefonos mobiles
-@media all and (min-width: 300px) and (max-width: 980px){
+@media all and (min-width: 300px) and (max-width: 1025px){
 	// html{overflow-x: hidden;}
 	#wpadminbar{
 		position: relative;
@@ -12,6 +12,15 @@
 	.lock-body{
 		height: 100%;
 		overflow-y: hidden;
+	}
+
+	.login{
+		.log-box{
+			width: 90%;
+			#wppb-login-wrap{
+				width: 93%;
+			}
+		}
 	}
 
 //head+menu	
@@ -48,9 +57,16 @@
 					content: '\f00d';
 				}
 			}
-			.menu{
+
+
+			.social{
+				display:none;
+				
+			}
+
+			.nav-holder{
 				position: fixed;
-				padding: 120px 0 0 0;
+				padding: 60px 0 0 0;
 				z-index: 100;
 				width: 200px;
 				height: 100%;
@@ -59,57 +75,90 @@
 				right: 0px;
 				top: 0px;
 				@include vendor-prefix(transition, left 0.3s ease-in-out);
-				.current-menu-item{
-					a{
-						border: 0px !important;
-						padding: 0px !important;
-						margin: 0px !important;
-						color: $naranja !important;
+				figure{
+					width: 50%;
+					display: block;
+					position: relative;
+					top: 0px;
+					right: -50px;
+					img{
+						width: 100%;
+						height: inherit;
 					}
-				} 
-				&:before{
-					content: '\f00b';
+				}
+				.social{
+					display: block;
+					position: relative;
+					top: 0px;
+					right: 0px;
+					margin: 30px 0 0 20px;
+					li{
+						float: none;
+						font-family: $icons;
+						color: $naranja;
+						display: inline-block;
+						vertical-align: middle;
+
+					}
+
 				}
 
-				li{
-					a{
-						color: white !important;
-						margin: 100px 0 !important;
-						@include vendor-prefix(transition, background 0.3s ease-in-out);
+				.menu{
+					overflow: auto; 
+					margin: 40px 0 0 0;
+				
+					.current-menu-item{
+						a{
+							border: 0px !important;
+							padding: 0px !important;
+							margin: 0px !important;
+							color: $naranja !important;
+						}
+					} 
+					&:before{
+						content: '\f00b';
+					}
+
+					li{
+						a{
+							color: white !important;
+							margin: 100px 0 !important;
+							@include vendor-prefix(transition, background 0.3s ease-in-out);
+						}
+
 					}
 
 				}
+			}//end navholder
 
-			}
-
+			
 			.open-sidebar{
 				left:0px;
 
 			}
 
-			.social{
-				display: none;
-				margin: 0 auto;
-			}
+
+
 		}
 
 		.swipe-area {
-		  display: block;
-          position: fixed;
-          width: 50px;
-          left: 0;
-          top: 0;
-          height: 100%;
-          // background: $gris-t;
-          z-index: 0;
-          @include vendor-prefix(transition, left 0.3s ease-in-out);
-          @include vendor-prefix(transition, width 0.3s ease-in-out);
-      }
+			display: block;
+	        position: fixed;
+	        width: 50px;
+	        left: 0;
+	        top: 0;
+	        height: 100%;
+	        // background: $gris-t;
+	        z-index: 0;
+	        @include vendor-prefix(transition, left 0.3s ease-in-out);
+	        @include vendor-prefix(transition, width 0.3s ease-in-out);
+	    }
 
-      .swipe-on{
-      	left: 200px;
-      	width: 100%;
-      }
+	    .swipe-on{
+			 left: 200px;
+			 width: 100%;
+	    }
+
 	}
 
 //footer
@@ -132,7 +181,6 @@
 
 //inicio
 	.slider{
-		height: 200px; 
 	}
 
 	#content{
@@ -144,7 +192,7 @@
 					text-align: center;
 					ul, p{
 						width: 80%;
-						margin: 0px;
+						margin: 10px 0px;
 
 					} 
 				}
@@ -350,7 +398,6 @@
 								display: block;
 								width: 90%;
 								margin: 0px auto;
-								text-align: center !important;
 								@include vendor-prefix(overflow-wrap, break-word);
 							}
 
@@ -415,55 +462,60 @@
 
 //contacto
 
-.contacto{
-	padding: 0px;
-	#wpcf7-f16-p129-o3, #wpcf7-f16-p129-o2{
-		width: 80%;
-		padding: 4px; 
-		p{
-			width: 100%;
-		}
-		p {
-			.wpcf7-submit{
-				display: block;
-				margin: 0 auto;
+	.contacto{
+		padding: 0px;
+		#wpcf7-f16-p129-o3, #wpcf7-f16-p129-o2{
+			width: 80%;
+			padding: 4px; 
+			p{
+				width: 100%;
+			}
+			p {
+				.wpcf7-submit{
+					display: block;
+					margin: 0 auto;
+				}
 			}
 		}
+
+
+
+
+		.wpb_gmaps_widget{
+			width: 80%;
+			padding: 0px;
+		}
+
 	}
-
-
-
-
-	.wpb_gmaps_widget{
-		width: 80%;
-		padding: 0px;
-	}
-
-}
-
-
-
-
-
-
-
-
 
 
 }
 
 
 //tablets
-@media all and(max-width: 980px)and(min-width: 375px){
+@media all and(max-width: 1025px)and(min-width: 375px){
 
 //inicio
 	header{
 		nav{
 			.social{
-				display: inline-block;
-				right: 0px;
+				display: block;
+				position: absolute;
+				right: 10px;
+				top: 64px;
+			}
+
+			.nav-holder{
+				figure{
+					top:-18px;
+					right: -78px;
+				}
 			}
 		}
+	}
+
+	.slider{
+
 	}
 
 	footer{
@@ -484,7 +536,7 @@
 					article.tiendas{
 						.shop-slide{
 							img{
-								width: 20%;
+								width: 10%;
 							}
 						}
 

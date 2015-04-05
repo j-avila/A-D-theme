@@ -64,8 +64,8 @@
     "date": "2015-04-04T05:34:19.327Z"
   },
   "header.php": {
-    "size": 2132,
-    "date": "2015-04-04T05:34:20.853Z"
+    "size": 2669,
+    "date": "2015-04-05T17:04:17.422Z"
   },
   "images/amazon.png": {
     "size": 2733,
@@ -192,16 +192,16 @@
     "date": "2015-03-27T13:40:55.238Z"
   },
   "style.css": {
-    "size": 36081,
-    "date": "2015-04-04T05:34:31.387Z"
+    "size": 37430,
+    "date": "2015-04-05T17:04:45.203Z"
   },
   "test.php": {
     "size": 1047,
     "date": "2015-03-27T13:40:57.370Z"
   },
   "prepros-ftp.json": {
-    "size": 25571,
-    "date": "2015-04-04T05:34:25.961Z"
+    "size": 27146,
+    "date": "2015-04-05T17:04:25.101Z"
   },
   "images/registro.png": {
     "size": 104061,
@@ -209,15 +209,15 @@
   },
   ".git/config": {
     "size": 413,
-    "date": "2015-04-04T05:34:06.925Z"
+    "date": "2015-04-05T17:03:24.260Z"
   },
   ".git/description": {
     "size": 73,
     "date": "2015-03-27T13:38:41.865Z"
   },
   ".git/FETCH_HEAD": {
-    "size": 218,
-    "date": "2015-04-04T05:34:08.428Z"
+    "size": 108,
+    "date": "2015-04-05T17:03:27.477Z"
   },
   ".git/HEAD": {
     "size": 34,
@@ -261,15 +261,15 @@
   },
   ".git/index": {
     "size": 5992,
-    "date": "2015-04-04T05:34:10.320Z"
+    "date": "2015-04-05T17:03:37.237Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2015-03-27T13:38:56.622Z"
   },
   ".git/logs/HEAD": {
-    "size": 1779,
-    "date": "2015-04-04T05:34:11.836Z"
+    "size": 1934,
+    "date": "2015-04-05T17:03:49.470Z"
   },
   ".git/logs/refs/heads/master": {
     "size": 190,
@@ -288,12 +288,12 @@
     "date": "2015-03-27T13:40:43.390Z"
   },
   ".git/logs/refs/heads/puliendo-detalles": {
-    "size": 1371,
-    "date": "2015-04-04T05:34:13.324Z"
+    "size": 1526,
+    "date": "2015-04-05T17:03:57.086Z"
   },
   ".git/refs/heads/puliendo-detalles": {
     "size": 41,
-    "date": "2015-04-04T05:34:16.261Z"
+    "date": "2015-04-05T17:04:08.601Z"
   },
   ".git/logs/refs/remotes/origin/HEAD": {
     "size": 190,
@@ -308,24 +308,24 @@
     "date": "2015-03-27T13:39:07.303Z"
   },
   "scripts/effects.js": {
-    "size": 1630,
-    "date": "2015-04-04T05:34:27.434Z"
+    "size": 1638,
+    "date": "2015-04-05T17:04:28.429Z"
   },
   "images/gb-cover_02.png": {
     "size": 26398,
     "date": "2015-03-27T13:38:39.127Z"
   },
   "scripts/min/effects.min.js": {
-    "size": 979,
-    "date": "2015-04-04T05:34:28.888Z"
+    "size": 987,
+    "date": "2015-04-05T17:04:31.307Z"
   },
   ".git/COMMIT_EDITMSG": {
-    "size": 146,
-    "date": "2015-04-04T05:34:05.377Z"
+    "size": 37,
+    "date": "2015-04-05T17:03:21.832Z"
   },
   ".git/logs/refs/remotes/origin/puliendo-detalles": {
-    "size": 934,
-    "date": "2015-04-04T05:34:14.784Z"
+    "size": 1087,
+    "date": "2015-04-05T17:04:05.633Z"
   },
   ".git/objects/01/9f254f44c11e5c69c326076d38448a0e8862f9": {
     "size": 871,
@@ -629,7 +629,7 @@
   },
   ".git/refs/remotes/origin/puliendo-detalles": {
     "size": 41,
-    "date": "2015-04-04T05:34:17.769Z"
+    "date": "2015-04-05T17:04:11.173Z"
   },
   ".git/objects/0a/65bf00c7f401fbe98b645304282226bedaf2c3": {
     "size": 1989,
@@ -922,5 +922,57 @@
   "scripts/min/jquery.touchSwipe.min.js": {
     "size": 10629,
     "date": "2015-04-04T05:34:03.771Z"
+  },
+  ".git/objects/08/7ed2e5b3b8c7c5250ad3a24c3138961c47d4ee": {
+    "size": 194,
+    "date": "2015-04-05T17:02:00.365Z"
+  },
+  ".git/objects/14/2827abfd4bc0e4bc884d05683a7d1ec07f61d7": {
+    "size": 7113,
+    "date": "2015-04-05T17:02:07.573Z"
+  },
+  ".git/objects/1b/5efd81ec855827c4e1a230a32eb08d32cbeb62": {
+    "size": 181,
+    "date": "2015-04-05T17:02:09.981Z"
+  },
+  ".git/objects/39/dcc29a3d5bb57a44a8e08fae8e34fb659c4906": {
+    "size": 7522,
+    "date": "2015-04-05T17:02:14.035Z"
+  },
+  ".git/objects/4a/e3f985ddade45c4d74699646c9e46094f483b9": {
+    "size": 594,
+    "date": "2015-04-05T17:02:18.847Z"
+  },
+  ".git/objects/4f/4d265ea94de4bc85e7e282cd1164b8f2930237": {
+    "size": 4963,
+    "date": "2015-04-05T17:02:25.910Z"
+  },
+  ".git/objects/81/d67393a2c216bcc65d197c1585960c8cf5c8dd": {
+    "size": 119,
+    "date": "2015-04-05T17:02:32.373Z"
+  },
+  ".git/objects/90/0b7bf05a02813cd3dcdde83359334fa345abed": {
+    "size": 2126,
+    "date": "2015-04-05T17:02:36.805Z"
+  },
+  ".git/objects/ad/d3b7ac133c6c62fff4197b1cbb94263bdb92eb": {
+    "size": 5056,
+    "date": "2015-04-05T17:02:51.733Z"
+  },
+  ".git/objects/d0/8ad34cb22ac489307e996d36dda9c0b7b6f7c9": {
+    "size": 594,
+    "date": "2015-04-05T17:02:54.401Z"
+  },
+  ".git/objects/d2/1fc6ad0ddd999b2f0288a5229f01854e09ca85": {
+    "size": 2183,
+    "date": "2015-04-05T17:02:57.788Z"
+  },
+  ".git/objects/f3/01c86e088d73fec60fe4d1133f13eee486f4a1": {
+    "size": 119,
+    "date": "2015-04-05T17:03:06.002Z"
+  },
+  "images/logo-diapo.png": {
+    "size": 17871,
+    "date": "2015-04-05T17:03:17.510Z"
   }
 }
