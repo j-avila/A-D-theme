@@ -4,10 +4,13 @@ $(window).load(function(){
 	$('.user-log').click(function(){
 		
 		$('.login').fadeToggle('slow');
+		$('body').addClass('lock-body'); 
 	});
 
 	$('.close').click(function(){
 		$('.login').fadeOut('slow');
+		$('body').removeClass('lock-body');
+
 	});
 
 
