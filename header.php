@@ -31,23 +31,31 @@
 
 		<div class="login">
 
-			<div class="log-box">
+			<?php 
 
-				<button class="close">
-					X
-				</button>
-			
-				<p>
+				if( is_user_logged_in() ){
+						echo '<div class="log-box">
+						<button class="close"> X </button>
+							<h1> <a href="' . get_site_url() . '/mi-cuenta">Ir a mi cuenta </a></h1>
+						</div>';
+				}else{
+					echo '<div class="log-box">
+						<button class="close">
+							X
+						</button>
+					
+						<p>
 
-					Si eres cliente nuevo y quieres alertar tus envíos debes Registrarte para que nos
-					informes tu dirección de entrega y los detalles de los paquetes que enviarás a nuestra dirección
+							Si eres cliente nuevo y quieres alertar tus envíos debes Registrarte para que nos
+							informes tu dirección de entrega y los detalles de los paquetes que enviarás a nuestra dirección
 
-				</p>
+						</p>' . do_shortcode('[ajax_login]') . 
 
-					<?php echo do_shortcode('[wppb-login]'); ?>
+							'<a class="reg-button" href="' . get_site_url() . '/site/crear-cuenta"><img src="<?php print IMAGES; ?>/registro.png" alt=""></a>
+					</div>';
+				}
 
-					<a class="reg-button" href="<?php get_site_url();?>/crear-cuenta"><img src="<?php print IMAGES; ?>/registro.png" alt=""></a>
-			</div>
+			?>
 
 		</div>
 

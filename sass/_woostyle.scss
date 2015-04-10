@@ -210,33 +210,35 @@
 	}
 
 	.row-address{
-		.woocommerce{
-			width: 90%;
-			@include white-box;
-			margin: 0 auto;
+		margin: 40px 0 0 0;
+		.wpb_wrapper{
 			h2{
-				margin: -222px 0 0 0;
-				font-size: 30px;
-				text-align: center;
-				color: $morado;
-				&:nth-of-type(1){
-					display: none;
-				}
-			}
+			margin: 20px 0 0 0; 
+			font-size: 30px;
+			text-align: center;
+			color: $morado;
 			
-			.myaccount_user, .my_account_orders, .shop_table, header, address{
-				display: none;
-			}
-			.myaccount_address{
-				width: 100%;
-			}
-			.col2-set{
-				margin: -130px 0 0 0;
-				header{
+		}
+
+		.myaccount_address{
+			width: 100%;
+			text-align: center;
+		}
+
+		.col2-set{
+			width: 90%;
+			position: relative;
+			@include white-box;
+			margin: 0 auto; 
+			text-align: center;
+			
+			header{
 					background: none;
-				}
+			}
 
 				.col-1, .col-2{
+					width: 40%;
+					display: inline-block;
 
 					.title{
 						h3, a{
@@ -252,9 +254,9 @@
 
 					
 				}
-			}
+			
 
-
+		}
 		}
 	}
 }
