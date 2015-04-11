@@ -48,7 +48,7 @@
 					}
 
 				h2{
-					margin: -82px 0 38px 0;
+					margin: 20px 0 38px 0;
 					padding: 8px 4px;
 					background: $naranja;
 					color: white;
@@ -80,6 +80,7 @@
 					@include white-box;
 					width: 80%; 
 					margin: 10px auto;
+					text-align: center;
 					@include vendor-prefix(display, flex);
 					@include vendor-prefix(flex-flow, row wrap);
 					@include vendor-prefix(justify-content, space-around);
@@ -97,7 +98,7 @@
 							margin: 0 4px;
 						}
 						input{
-							display: inline-block !important;
+							display: inline-block ;
 							padding: 8px;
 							width: 60%;
 							background: $gris2; 
@@ -107,13 +108,27 @@
 								color: white;
 							}
 						}
+
+					}
+					fieldset{
+						@include vendor-prefix(display, flex);
+						@include vendor-prefix(flex-flow, row wrap);
+						@include vendor-prefix(justify-content, space-around);
+						width: 100%;
+						p{
+							@include vendor-prefix(flex, 2 40%);
+						}
 					}
 				}
 				
 
 				//detalles de la orden
 				.order-info{
-					display: none;
+					display: block;
+					font-family: $Montserrat !important;
+					font-weight: bold;
+					color: $morado;
+					font-size: 20px;
 				}
 
 				header{
@@ -123,9 +138,19 @@
 
 				header.title{
 					@include titulos;
+					font-family: $Montserrat !important;
+					font-weight: bolder;
 					padding: 10px 0px;
 					font-size: 20px !important;
 					display: block; 
+				}
+
+				ol{
+					display: block;
+					li{
+						background: $gris-t2;
+						color: $morado;
+					}
 				}
 
 			}
@@ -210,38 +235,44 @@
 	}
 
 	.row-address{
-		.woocommerce{
-			width: 90%;
-			@include white-box;
-			margin: 0 auto;
+		margin: 40px 0 0 0;
+		.wpb_wrapper{
 			h2{
-				margin: -222px 0 0 0;
-				font-size: 30px;
-				text-align: center;
-				color: $morado;
-				&:nth-of-type(1){
-					display: none;
-				}
-			}
+			margin: 20px 0 0 0; 
+			font-size: 30px;
+			text-align: center;
+			color: $morado;
 			
-			.myaccount_user, .my_account_orders, .shop_table, header, address{
-				display: none;
-			}
-			.myaccount_address{
-				width: 100%;
-			}
-			.col2-set{
-				margin: -130px 0 0 0;
-				header{
+		}
+
+		.myaccount_address{
+			width: 100%;
+			text-align: center;
+		}
+
+		.col2-set{
+			width: 90%;
+			position: relative;
+			@include white-box;
+			margin: 0 auto; 
+			text-align: center;
+			
+			header{
 					background: none;
-				}
+			}
 
 				.col-1, .col-2{
+					width: 40%;
+					display: inline-block;
+					vertical-align: top;
 
 					.title{
 						h3, a{
 							display: inline-block;
 						}	
+					}
+					h2{
+						margin: 15px 0 0 0;
 					}
 					address{
 						display: inline-block;
@@ -252,9 +283,9 @@
 
 					
 				}
-			}
+			
 
-
+		}
 		}
 	}
 }

@@ -5,8 +5,8 @@ Theme URI: http://www.adexpress.com
 Description: Tema personalizado para A&D Express
 Version: 1.0
 Author: Jose Avila
-Author URI: http://jose-avila.hostei.com 
- */
+Author URI: http://jose-avila.hostei.com  */
+
 
 
 
@@ -25,7 +25,7 @@ a{text-decoration: none !important;}
   -o-#{$name}: #{$argument};
   #{$name}: #{$argument};
 }
-
+ 
 //colores 
 
 	$morado: rgba(105, 31, 87, 1);
@@ -68,8 +68,8 @@ a{text-decoration: none !important;}
 
 	@font-face {
 	    font-family: 'BIG-JOHN'; 
-	    src: url('fonts/BIG-JOHN.eot');
-	    src: url('fonts/BIG-JOHN.eot?#iefix') format('embedded-opentype'),
+	    src: url('fonts/BIG-JOHN.woff');
+	    src: url('fonts/BIG-JOHN.woff?#iefix') format('embedded-opentype'),
 	         url('fonts/BIG-JOHN.ttf') format('truetype'),
 	         url('fonts/BIG-JOHN.svg#opficioregular') format('svg');
 	    font-weight: normal;
@@ -77,19 +77,21 @@ a{text-decoration: none !important;}
 
 	}
 	@font-face {
-	    font-family: 'Montserrat-Regular'; 
-	    src: url('fonts/Montserrat-Regular.eot');
-	    src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-	         url('fonts/Montserrat-Regular.ttf') format('truetype'),
-	         url('fonts/Montserrat-Regular.svg#opficioregular') format('svg');
-	    font-weight: normal;
-	    font-style: normal;
+    font-family: 'montserratregular';
+    src: url('Montserrat-Regular-webfont.eot');
+    src: url('Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Montserrat-Regular-webfont.woff2') format('woff2'),
+         url('Montserrat-Regular-webfont.woff') format('woff'),
+         url('Montserrat-Regular-webfont.ttf') format('truetype'),
+         url('Montserrat-Regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 	}
 	@font-face {
 	    font-family: 'Slim-Joe'; 
-	    src: url('fonts/Slim-Joe.eot');
-	    src: url('fonts/Slim-Joe.eot?#iefix') format('embedded-opentype'),
+	    src: url('fonts/Slim-Joe.woff');
+	    src: url('fonts/Slim-Joe.woff?#iefix') format('embedded-opentype'),
 	         url('fonts/Slim-Joe.ttf') format('truetype'),
 	         url('fonts/Slim-Joe.svg#opficioregular') format('svg');
 	    font-weight: normal;
@@ -98,8 +100,8 @@ a{text-decoration: none !important;}
 	}
 	@font-face {
 	    font-family: 'FontAwesome'; 
-	    src: url('fonts/fontawesome-webfont.eot');
-	    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+	    src: url('fonts/fontawesome-webfont.woff');
+	    src: url('fonts/fontawesome-webfont.woff?#iefix') format('embedded-opentype'),
 	         url('fonts/fontawesome-webfont.ttf') format('truetype'),
 	         url('fonts/fontawesome-webfont.svg#opficioregular') format('svg');
 	    font-weight: normal;
@@ -109,11 +111,11 @@ a{text-decoration: none !important;}
 
 //font packs
 
-	$bigjhon: 'BIG-JOHN', Roboto;
-	$Montserrat: 'Montserrat-Regular', roboto, 18px;
-	$Slim: 'Slim-Joe', roboto, arial;
-	$icons: 'FontAwesome', arial;
-	$fontStack: 'Roboto', sans-serif, 18px;
+	$bigjhon: BIG-JOHN, Roboto;
+	$Montserrat: 'montserratregular', Roboto;
+	$Slim: Slim-Joe, Roboto, arial;
+	$icons: FontAwesome, arial;
+	$fontStack: Roboto, sans-serif;
 
 //elementos
 
@@ -352,7 +354,7 @@ body{font-family: $Montserrat;}
 				}
 			}
 			p{
-				padding: 8px;
+				padding: 8px; 
 				margin: 0 0 10px 0;
 			}
 			.reg-button{
@@ -362,6 +364,18 @@ body{font-family: $Montserrat;}
 				
 			}
 
+			.logut-but{
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 10px;
+				span{
+					font-family: $icons;
+					font-weight: bold;
+				}
+				&:hover{
+					color: black; 
+				}
+			}
 
 		}
 }
@@ -373,10 +387,9 @@ header{
 	@include gradientWhite;
 
 	nav{
-		width:84%;
+		width:1100px;
 		margin: 0 auto;
 		padding: 0 20px;
-		// position: relative;
 		height: 100%;
 		overflow: auto;
 		.burger{ 
@@ -410,8 +423,9 @@ header{
 					}
 				}
 				li{
-					float: left;
-					margin: 0 12px;
+					display: inline-block;
+					vertical-align: middle; 
+					margin: 0 10px;
 					a{
 						color: $naranja2;
 						font: 18px $naranja;
@@ -429,9 +443,10 @@ header{
 		.social{
 			display: inline-block;
 			vertical-align: middle;
-			margin: 0 0 0 40px;
+			margin: 0 0 0 0px;
 			li {
-				float: left;
+				display: inline-block;
+				vertical-align: middle; 
 				list-style: none;
 				a{
 					float: left;

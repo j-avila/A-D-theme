@@ -274,6 +274,37 @@ add_shortcode('hotlink','url_shortcode');
 
 
 
+
+
+//hotlink a las imagenes con enlace
+
+function imgurl_shortcode($atts, $content = null) {
+
+return '<a href="'. get_site_url() . '/crear-cuenta"><img src="' . get_stylesheet_directory_uri() . '/images/' . $content . '"/></a>';
+
+}
+
+add_shortcode('a-hotlink','imgurl_shortcode');
+
+
+
+
+
+
+
+//woocomemrce slices of code
+
+
+
+	function address_box(){
+		echo wc_get_template( 'myaccount/my-address.php' );
+	}
+
+	add_shortcode('wc_a_box', 'address_box');
+
+
+
+
 //user
 
 function user_logged(){
@@ -306,7 +337,7 @@ add_shortcode( 'logout-but', 'iweb_logout_url_shortcode' );
 //editar perfil
 
 function edit_profile(){
-	return '<a class="logut-but" href="' . get_bloginfo('url') . '/editar-perfil"><span>&#xf044;</span>Editar perfil</a>';
+	return '<a class="logut-but" href="' . get_bloginfo('url') . '/mi-cuenta/editar-perfil"><span>&#xf044;</span>Editar perfil</a>';
 }
 
 add_shortcode( 'edit-but', 'edit_profile' ); 
