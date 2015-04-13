@@ -36,12 +36,6 @@ function register_my_menus() {
 
 
 
-
-
-
-
-
-
 /*//////sidebar lateral////////*///
 
 
@@ -295,12 +289,25 @@ add_shortcode('a-hotlink','imgurl_shortcode');
 //woocomemrce slices of code
 
 
-
 	function address_box(){
 		echo wc_get_template( 'myaccount/my-address.php' );
 	}
 
 	add_shortcode('wc_a_box', 'address_box');
+
+
+
+//reg form
+
+
+	function my_orders_box(){
+		echo wc_get_template( 'myaccount/my-orders.php' );
+	}
+
+	add_shortcode('wc_status_box', 'my_orders_box');
+
+
+
 
 
 
@@ -343,4 +350,8 @@ function edit_profile(){
 add_shortcode( 'edit-but', 'edit_profile' ); 
 
 
-?>
+
+
+
+
+//hooks

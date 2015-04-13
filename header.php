@@ -37,6 +37,7 @@
 						echo '<div class="log-box">
 						<button class="close"> X </button>
 							<h1> <a href="' . get_site_url() . '/mi-cuenta">Ir a mi cuenta </a></h1>
+
 							<div class="user-actions">' . do_shortcode('[edit-but]' ) . do_shortcode('[logout-but]' ) . '</div>
 						</div>';
 				}else{
@@ -50,15 +51,16 @@
 							Si eres cliente nuevo y quieres alertar tus envíos debes Registrarte para que nos
 							informes tu dirección de entrega y los detalles de los paquetes que enviarás a nuestra dirección
 
-						</p>' . do_shortcode('[ajax_login]') . 
+						</p>'. do_shortcode('[wppb-login]') . 
 
-							'<a class="reg-button" href="' . get_site_url() . '/site/crear-cuenta"><img src="<?php print IMAGES; ?>/registro.png" alt=""></a>
+							'<a class="reg-button" href="' . get_site_url() . '/crear-cuenta "><img src="' .  IMAGES . '/registro.png" alt=""></a>
 					</div>';
 				}
 
 			?>
 
 		</div>
+
 
 		<header>
 

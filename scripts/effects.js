@@ -14,18 +14,12 @@ $(window).load(function(){
 	});
 
 
-	///mi cuenta contenido
-	var usuario = $('body').hasClass('user-logged');
+	///goTo checkout
+		$('.single_add_to_cart_button').click(function(){
+			
+		});
 
-	if(usuario){
-		$('.logged').show();
-		$('.not-user').hide();
-	}
-	else{
-		$('.logged').hide();
-		$('.not-user').show();
-		
-	}
+	
 
 });
 

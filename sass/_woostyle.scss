@@ -136,7 +136,7 @@
 
 				}
 
-				header.title{
+				header.title{ 
 					@include titulos;
 					font-family: $Montserrat !important;
 					font-weight: bolder;
@@ -264,6 +264,7 @@
 				.col-1, .col-2{
 					width: 40%;
 					display: inline-block;
+
 					vertical-align: top;
 
 					.title{
@@ -388,7 +389,7 @@
 			justify-content: space-around;
 			label{
 				@include vendor-prefix(order, 1);
-				margin: 0 4px;
+				margin: 0 20px;
 			}
 			input{
 				@include vendor-prefix(order, 2);
